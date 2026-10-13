@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- 《目测》应用图标母版 ART-ICON-01 · v2 卡通糖果风
+       构思：“目”字即一只量杯——外框是杯壁，两横是刻度线；水位停在两条刻度之间，粉色指针（玩家色）指向水面。
+       Windows：由此导出 icon.ico（16–256）；16/24/32 小尺寸去掉闪星装饰。
+       移动端（后续）：iOS 直接导出 1024 PNG；Android 自适应图标背景层 = 纯色 #8B5CF6，前景层 = 杯子 + 指针，缩放到中心 66% 安全区内。 -->
+  <rect width="1024" height="1024" fill="#8B5CF6"/>
+  <!-- 背景闪星 -->
+  <g fill="#7444E8">
+    <path d="M160 170 l22 50 50 22 -50 22 -22 50 -22 -50 -50 -22 50 -22z"/>
+    <path d="M860 790 l18 40 40 18 -40 18 -18 40 -18 -40 -40 -18 40 -18z"/>
+    <circle cx="840" cy="200" r="22"/>
+    <circle cx="170" cy="850" r="16"/>
+  </g>
+  <!-- 杯子投影 -->
+  <rect x="246" y="214" width="400" height="628" rx="64" fill="#2B2350"/>
+  <!-- 杯内底色 -->
+  <rect x="240" y="196" width="400" height="628" rx="64" fill="#FFFFFF"/>
+  <!-- 水 -->
+  <path d="M240 540 H640 V760 a64 64 0 0 1 -64 64 H304 a64 64 0 0 1 -64 -64 Z" fill="#36C5F4"/>
+  <rect x="240" y="530" width="400" height="26" fill="#8FE3FF"/>
+  <!-- 杯壁（目 的外框） -->
+  <rect x="240" y="196" width="400" height="628" rx="64" fill="none" stroke="#2B2350" stroke-width="46"/>
+  <!-- 两条刻度（目 的两横） -->
+  <line x1="240" y1="405" x2="640" y2="405" stroke="#2B2350" stroke-width="42"/>
+  <line x1="240" y1="626" x2="640" y2="626" stroke="#2B2350" stroke-width="42"/>
+  <!-- 高光 -->
+  <rect x="290" y="250" width="22" height="120" rx="11" fill="#DDF5FF"/>
+  <!-- 粉色指针 -->
+  <path d="M700 552 L800 494 L800 610 Z" fill="#2B2350" stroke="#2B2350" stroke-width="26" stroke-linejoin="round" transform="translate(0 10)"/>
+  <path d="M700 542 L800 484 L800 600 Z" fill="#FF5FA8" stroke="#2B2350" stroke-width="22" stroke-linejoin="round"/>
+</svg>

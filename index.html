@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>By Eye</title>
+<meta name="description" content="By Eye — a casual estimation puzzle game for Android. Developer site, privacy policy and contact.">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<style>
+  :root { --ink: #2B2350; --ink-soft: #4B4374; --bg: #EAF3FF; --card: #FFFFFF; --line: #C6D3EE; --accent: #8B5CF6; --sun: #FFD23F; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink: #F6F2FF; --ink-soft: #C9C3E6; --bg: #1E1640; --card: #2B2160; --line: #3C3080; --accent: #B79CFF; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
+  .card { background: var(--card); border: 2px solid var(--line); border-radius: 20px; padding: 28px; }
+  header { display: flex; align-items: center; gap: 20px; margin-bottom: 24px; }
+  header img { width: 88px; height: 88px; border-radius: 22px; }
+  h1 { margin: 0; font-size: 32px; line-height: 1.2; }
+  .tag { margin: 4px 0 0; color: var(--ink-soft); }
+  a { color: var(--accent); }
+  .button { display: inline-block; margin-top: 8px; padding: 10px 20px; border-radius: 999px; background: var(--sun); color: #2B2350; font-weight: 600; text-decoration: none; border: 2px solid #2B2350; }
+  ul { padding-left: 20px; }
+  footer { margin-top: 24px; color: var(--ink-soft); font-size: 14px; text-align: center; }
+</style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <header>
+      <img src="icon.svg" alt="By Eye app icon">
+      <div>
+        <h1>By Eye</h1>
+        <p class="tag">How good is your eye? A casual estimation puzzle game.</p>
+      </div>
+    </header>
+    <p>Guess lengths, ratios, angles, areas and counts by eye, then see how close you were. Hundreds of hand-made levels and an endless mode, in 13 languages.</p>
+    <a class="button" href="https://play.google.com/store/apps/details?id=com.byeye.game">Get it on Google Play</a>
+    <h2>Information</h2>
+    <ul>
+      <li><a href="by-eye/privacy/">Privacy policy</a></li>
+      <li><a href="app-ads.txt">app-ads.txt</a></li>
+      <li>Contact: <a href="mailto:yue.witness@gmail.com">yue.witness@gmail.com</a></li>
+    </ul>
+  </div>
+  <footer>By Eye is made by an independent developer.</footer>
+</main>
+</body>
+</html>
