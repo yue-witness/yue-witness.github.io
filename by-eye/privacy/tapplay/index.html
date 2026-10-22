@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>目测 隐私政策（TapTap 版）</title>
+<meta name="description" content="安卓游戏《目测》TapTap 版（com.byeye.trial）的隐私政策与第三方 SDK 清单。">
+<link rel="icon" href="../../../icon.svg" type="image/svg+xml">
+<style>
+  :root { --ink: #2B2350; --ink-soft: #4B4374; --bg: #EAF3FF; --card: #FFFFFF; --line: #C6D3EE; --accent: #7444E8; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink: #F6F2FF; --ink-soft: #C9C3E6; --bg: #1E1640; --card: #2B2160; --line: #3C3080; --accent: #B79CFF; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.75 system-ui, -apple-system, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; }
+  .card { background: var(--card); border: 2px solid var(--line); border-radius: 20px; padding: 28px; }
+  h1 { margin: 0 0 4px; font-size: 28px; line-height: 1.3; }
+  h2 { margin: 28px 0 8px; font-size: 20px; }
+  h3 { margin: 20px 0 4px; font-size: 17px; }
+  .meta { margin: 0 0 16px; color: var(--ink-soft); }
+  a { color: var(--accent); overflow-wrap: anywhere; }
+  ul { padding-left: 20px; }
+  nav { margin-bottom: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <nav><a href="../../../">← By Eye</a></nav>
+  <div class="card">
+    <h1>《目测》隐私政策（TapTap 版）</h1>
+    <p class="meta">更新日期：2026 年 10 月 22 日</p>
+
+    <p>本政策适用于在 TapTap 发行的安卓游戏《目测》（包名 com.byeye.trial，以下称“本游戏”），由独立开发者“By Eye”（以下称“我们”）开发。本政策说明本游戏处理哪些信息、为什么处理，以及接入的第三方 SDK。</p>
+
+    <h2>一、同意在先</h2>
+    <p>首次启动时，本游戏会先展示隐私政策弹窗。在你点击“同意”之前，本游戏不会初始化任何广告 SDK，也不会发起广告请求。TapTap 登录需要你另外点击“TapTap 登录”并在 TapTap 授权页确认后才会进行。</p>
+
+    <h2>二、保存在你设备上的信息</h2>
+    <p>本游戏在应用私有存储中保存关卡进度、星数、无尽模式记录、设置（音乐与音效音量、字号、语言）以及用于生成题目的随机数。我们不运营自己的服务器，不会收集或接收这些数据。你可以在系统设置中清除本游戏的存储或卸载本游戏来删除它们。</p>
+    <p>本游戏不申请通讯录、相机、麦克风、定位、照片或文件等权限。安装包中已移除广告 SDK 自带的定位、电话状态、存储、Wi-Fi 状态与应用列表等权限声明。</p>
+
+    <h2>三、接入的第三方 SDK</h2>
+
+    <h3>1. TapTap SDK（登录、排行榜、云存档）</h3>
+    <ul>
+      <li>提供方：易玩（上海）网络科技有限公司</li>
+      <li>用途：TapTap 账号登录与游戏测试资格验证；无尽模式排行榜（含好友榜）；云存档。</li>
+      <li>处理的信息：TapTap 账号标识、昵称与头像、登录所需的设备与网络信息；排行榜成绩（无尽模式通过的关卡数与星数）；在 TapTap 内读取的好友关系（仅用于生成好友榜，本游戏不保存）；云存档内容（已通关关卡的最高星数与无尽模式最佳成绩）。</li>
+      <li>隐私政策：<a href="https://www.taptap.cn/doc/privacy-policy/">https://www.taptap.cn/doc/privacy-policy/</a></li>
+    </ul>
+
+    <h3>2. uni-AD 原生广告 SDK</h3>
+    <ul>
+      <li>提供方：数字天堂（北京）网络技术有限公司（DCloud）</li>
+      <li>用途：在关卡结算时展示插屏广告，聚合下列第三方广告平台。</li>
+      <li>处理的信息：设备基础信息（品牌、型号、系统版本、分辨率、屏幕密度、语言、时区、系统时间）、网络类型与 IP 地址、广告展示与点击等交互信息。</li>
+      <li>隐私政策：<a href="https://dcloud.io/license/uni-ad.html">https://dcloud.io/license/uni-ad.html</a></li>
+    </ul>
+
+    <h3>3. 章鱼广告（Octopus SDK）</h3>
+    <ul>
+      <li>用途：广告投放、统计分析、反作弊，实现广告正常显示与交互。</li>
+      <li>处理的信息：设备基础信息、网络信息、应用信息、广告交互信息、崩溃与性能数据。</li>
+      <li>隐私政策：<a href="https://doc.adintl.cn/#/zh-cn/guide/UsePrivacy">https://doc.adintl.cn/#/zh-cn/guide/UsePrivacy</a></li>
+    </ul>
+
+    <h3>4. 泛连（Funlink SDK）</h3>
+    <ul>
+      <li>用途：广告投放与监测归因、反作弊、广告统计分析、提升 SDK 稳定性。</li>
+      <li>处理的信息：设备基础信息（品牌、型号、系统版本、屏幕密度与分辨率、语言、时区）、网络信息、广告交互信息。</li>
+      <li>隐私政策：<a href="https://www.adfunlink.com/doc/privacy.html">https://www.adfunlink.com/doc/privacy.html</a></li>
+    </ul>
+
+    <h3>5. 华夏乐游（优推广告 SDK）</h3>
+    <ul>
+      <li>用途：广告投放与反作弊、广告监测归因、保证网络服务稳定、减少应用崩溃。</li>
+      <li>处理的信息：设备基础信息、运营商与网络状态、IP 地址、应用包名与版本号、崩溃与性能数据、广告交互信息。</li>
+      <li>隐私政策：<a href="https://lemon.gameley.com/flowdocs/%E4%BC%98%E6%8E%A8%E5%B9%BF%E5%91%8A%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E9%9A%90%E7%A7%81%E5%8D%8F%E8%AE%AE/%E4%BC%98%E6%8E%A8%E5%B9%BF%E5%91%8A%E5%B9%B3%E5%8F%B0SDK%E9%9A%90%E7%A7%81%E6%94%BF%E7%AD%96.html">优推广告平台 SDK 隐私政策</a></li>
+    </ul>
+
+    <p>我们在初始化广告 SDK 时关闭了可选信息的获取：电话状态、存储、定位、Wi-Fi 状态、已安装与运行中的应用列表、MAC 地址、Android ID、OAID、IP 获取、传感器、运营商与录音。各广告平台仍可能依据其自身隐私政策处理其列为必要的信息；这些信息由各提供方直接处理，我们不会收到。</p>
+
+    <h2>四、未成年人</h2>
+    <p>我们不会主动收集未成年人的个人信息。未满 14 周岁的未成年人应在监护人阅读并同意本政策后使用本游戏。</p>
+
+    <h2>五、共享与保存期限</h2>
+    <p>我们自己不出售、不共享任何个人信息，也不会收到上文所述数据。除上文列出的第三方 SDK 处理的信息外，没有数据离开你的设备。设备上的数据保存至你删除为止；TapTap 云存档可通过 TapTap 账号相关功能管理。</p>
+
+    <h2>六、你的选择</h2>
+    <p>你可以拒绝隐私政策（此时无法开始游戏），可以不登录 TapTap，也可以在系统设置中清除本游戏数据或卸载本游戏。对第三方 SDK 处理的信息，可依据其隐私政策向提供方行使权利。</p>
+
+    <h2>七、政策变更</h2>
+    <p>如本游戏处理信息的方式发生变化，我们会更新本政策及上方的更新日期；接入新的 SDK 时会在游戏内重新征得同意。</p>
+
+    <h2>八、联系我们</h2>
+    <p>如对本政策有疑问，请联系：<a href="mailto:yue.witness@gmail.com">yue.witness@gmail.com</a></p>
+  </div>
+</main>
+</body>
+</html>
