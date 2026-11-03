@@ -43,8 +43,7 @@
     <p>本游戏不接入广告 SDK，没有付费功能，不要求你填写姓名、手机号或邮箱，也不获取你的平台昵称、头像、精确位置、通讯录或好友关系。</p>
 
     <h2>一、同意在先</h2>
-    <p>首次点击“开始”时，本游戏会先弹出隐私政策同意框。在你点击“同意”之前，本游戏不会登录，不会初始化 TapTap SDK，不会调用微信登录，也不会向我们的服务器发送任何账号或游戏数据。不同意则无法开始游戏。</p>
-    <p>Google Play 版：Play 游戏服务是 Google Play 提供的服务，Google 会按其机制在游戏启动时尝试用你设备上的 Play 游戏资料自动登录。在你同意本政策之前，本游戏不会向 Google 请求服务器授权码，也不会向我们的服务器发送任何信息。</p>
+    <p>首次点击“开始”时，本游戏会先弹出隐私政策同意框。在你点击“同意”之前，本游戏不会登录，不会初始化任何第三方 SDK（TapTap 版不初始化 TapSDK 的任何组件，包括其数据分析模块与 ThemisLite；Google Play 版不初始化 Play 游戏服务，也不会自动登录），不会调用微信登录，也不会向我们的服务器发送任何账号或游戏数据。不同意则无法开始游戏。</p>
 
     <h2>二、登录与我们服务器保存的信息</h2>
     <p>本游戏的强化结果、排行榜与每日资源由我们的服务器计算和保存。登录方式按渠道不同：</p>
@@ -89,7 +88,7 @@
           <li>检查设备上是否安装了 TapTap 客户端，以便跳转授权。</li>
         </ul>
         具体以 TapSDK 隐私政策为准。</li>
-      <li>收集方式：SDK 自行采集。TapSDK 只在你同意本政策、开始游戏并发起 TapTap 登录时才初始化。</li>
+      <li>收集方式：SDK 自行采集。TapSDK 的全部组件只在你点击“同意”本政策之后才初始化，之前不运行、不采集。</li>
       <li>隐私政策：<a href="https://developer.taptap.cn/docs/sdk/start/agreement/">TapSDK 隐私政策</a>；<a href="https://www.taptap.cn/doc/privacy-policy/">TapTap 隐私政策 https://www.taptap.cn/doc/privacy-policy/</a></li>
     </ul>
 
@@ -100,7 +99,7 @@
       <li>适用渠道：Google Play 版</li>
       <li>使用目的：用 Play 游戏账号登录，识别你在本游戏中的账号。本游戏不使用 Play 游戏服务的成就、排行榜或云存档功能。</li>
       <li>收集的个人信息：Play 游戏玩家 ID（playerId）与玩家身份（游戏昵称、头像）——我们的服务器只保存 playerId；据 Google 说明，SDK 还会为改善稳定性与产品采集分析与诊断信息。具体以 Google 隐私政策为准。</li>
-      <li>收集方式：SDK 自行采集；Google 按其机制在游戏启动时自动尝试登录（没有 Play 游戏资料时 Google 会提示创建，你可以拒绝）。</li>
+      <li>收集方式：SDK 自行采集。Play 游戏服务只在你点击“同意”本政策之后才初始化；初始化后 Google 按其机制用你设备上的 Play 游戏资料自动登录（没有 Play 游戏资料时 Google 会提示创建，你可以拒绝）。</li>
       <li>隐私政策：<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>；你可以在 Google Play 游戏应用或 <a href="https://myaccount.google.com">myaccount.google.com</a> 管理或删除 Play 游戏资料。</li>
     </ul>
 
@@ -143,8 +142,7 @@
     <p>The game contains no advertising SDK and no purchases. It does not ask for your name, phone number or email address, and it does not obtain your platform nickname, avatar, precise location, contacts or friend list.</p>
 
     <h2>1. Consent first</h2>
-    <p>The first time you tap "Start", the game shows a privacy policy consent dialog. Until you tap "Agree", the game does not sign you in, does not initialize the TapTap SDK, does not call WeChat sign-in, and does not send any account or game data to our servers. If you do not agree, you cannot start the game.</p>
-    <p>Google Play edition: Play Games Services is provided by Google Play, and Google tries to sign you in automatically with the Play Games profile on your device when the game launches. Until you agree to this policy, the game does not request a server authorization code from Google and does not send any information to our servers.</p>
+    <p>The first time you tap "Start", the game shows a privacy policy consent dialog. Until you tap "Agree", the game does not sign you in, does not initialize any third-party SDK (the TapTap edition initializes no TapSDK component, including its data analytics module and ThemisLite; the Google Play edition does not initialize Play Games Services and does not sign you in automatically), does not call WeChat sign-in, and does not send any account or game data to our servers. If you do not agree, you cannot start the game.</p>
 
     <h2>2. Sign-in and information stored on our servers</h2>
     <p>Enhancement results, leaderboards and daily resources are calculated and stored on our servers. Sign-in works differently on each channel:</p>
@@ -189,7 +187,7 @@
           <li>A check whether the TapTap app is installed, so that authorization can open it.</li>
         </ul>
         See the TapSDK privacy policy for details.</li>
-      <li>How it is collected: by the SDK itself. TapSDK is initialized only after you agree to this policy, start the game and begin TapTap sign-in.</li>
+      <li>How it is collected: by the SDK itself. All TapSDK components are initialized only after you tap "Agree" to this policy; before that they do not run or collect anything.</li>
       <li>Privacy policies: <a href="https://developer.taptap.cn/docs/sdk/start/agreement/">TapSDK privacy policy</a>; <a href="https://www.taptap.cn/doc/privacy-policy/">TapTap privacy policy https://www.taptap.cn/doc/privacy-policy/</a></li>
     </ul>
 
@@ -200,7 +198,7 @@
       <li>Channel: Google Play edition</li>
       <li>Purpose: sign-in with your Play Games account to identify your account in the game. The game does not use Play Games achievements, leaderboards or saved games.</li>
       <li>Personal information collected: Play Games player ID (playerId) and gamer identity (gamer name, avatar), of which our server stores only the playerId; according to Google, the SDK also collects analytics and diagnostics data to improve SDK stability and its products. See Google's privacy policy for details.</li>
-      <li>How it is collected: by the SDK itself; Google tries to sign you in automatically when the game launches (if you have no Play Games profile, Google offers to create one and you can decline).</li>
+      <li>How it is collected: by the SDK itself. Play Games Services is initialized only after you tap "Agree" to this policy; after that, Google signs you in automatically with the Play Games profile on your device (if you have no Play Games profile, Google offers to create one and you can decline).</li>
       <li>Privacy policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>. You can manage or delete your Play Games profile in the Google Play Games app or at <a href="https://myaccount.google.com">myaccount.google.com</a>.</li>
     </ul>
 
