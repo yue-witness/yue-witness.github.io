@@ -1,0 +1,3 @@
+# ads.txt for yue-witness.github.io
+# Authorized digital sellers (IAB Tech Lab ads.txt). Google AdSense publisher ID below.
+google.com, pub-6465473285974998, DIRECT, f08c47fec0942fa0

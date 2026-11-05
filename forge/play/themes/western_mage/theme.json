@@ -1,0 +1,45 @@
+{
+  "version": "theme-images-0.1.0",
+  "id": "western_mage",
+  "paletteTheme": "western",
+  "display": "canvas-2d-images",
+  "resourceName": "魔晶",
+  "color": {
+    "accent": [
+      "#7FB2FF",
+      "#C59BFF",
+      "#7FD6A0"
+    ]
+  },
+  "equipmentNames": {
+    "weapon": "法杖",
+    "helm": "法师冠",
+    "armor": "法袍",
+    "gloves": "施法手套",
+    "boots": "法靴"
+  },
+  "audio": {
+    "sfx.press": "../western/audio/sfx.press.mp3",
+    "sfx.slot_select": "../western/audio/sfx.slot_select.mp3",
+    "sfx.tab": "../western/audio/sfx.tab.mp3",
+    "sfx.charge": "../western/audio/sfx.charge.mp3",
+    "sfx.heartbeat": "../western/audio/sfx.heartbeat.mp3",
+    "sfx.wait_loop": "../western/audio/sfx.wait_loop.mp3",
+    "sfx.success": "../western/audio/sfx.success.mp3",
+    "sfx.success_high": "../western/audio/sfx.success_high.mp3",
+    "sfx.tier_up": "../western/audio/sfx.tier_up.mp3",
+    "sfx.fail": "../western/audio/sfx.fail.mp3",
+    "sfx.fail_drop": "../western/audio/sfx.fail_drop.mp3",
+    "sfx.record": "../western/audio/sfx.record.mp3",
+    "sfx.claim": "../western/audio/sfx.claim.mp3",
+    "sfx.coin_fly": "../western/audio/sfx.coin_fly.mp3",
+    "sfx.popup_open": "../western/audio/sfx.popup_open.mp3",
+    "sfx.popup_close": "../western/audio/sfx.popup_close.mp3",
+    "sfx.toast": "../western/audio/sfx.toast.mp3",
+    "sfx.rank_up": "../western/audio/sfx.rank_up.mp3",
+    "bgm.main": "../western/audio/bgm.main.mp3",
+    "bgm.rank": "../western/audio/bgm.rank.mp3",
+    "bgm.loading": "../western/audio/bgm.loading.mp3"
+  },
+  "finalAcceptance": "approved"
+}

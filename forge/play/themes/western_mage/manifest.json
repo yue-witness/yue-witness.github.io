@@ -1,0 +1,655 @@
+{
+  "assets": {
+    "equip.weapon.t0": {
+      "type": "image",
+      "path": "equip/weapon_t0.png",
+      "width": 512,
+      "height": 512,
+      "hash": "sha256:212d24d96a40799630fecff31271e4a3571632806c969913d9bbe1fbaa6cafb8"
+    },
+    "equip.weapon.t0.icon": {
+      "type": "image",
+      "path": "equip/weapon_t0_icon.png",
+      "width": 176,
+      "height": 176,
+      "hash": "sha256:e1a1c4957e33870b2b0af83521710cbbf59e18deae43ad8c1a9768dae344b354"
+    },
+    "equip.weapon.t1": {
+      "type": "image",
+      "path": "equip/weapon_t1.png",
+      "width": 512,
+      "height": 512,
+      "hash": "sha256:d38b603d3f30d81fa24815691dbdde18e9fe033598a5a8fafae2db9d6dbc1862"
+    },
+    "equip.weapon.t1.icon": {
+      "type": "image",
+      "path": "equip/weapon_t1_icon.png",
+      "width": 176,
+      "height": 176,
+      "hash": "sha256:0566ea99f908d9376f9ba37d45590be527c94c32d2649b43e96abab6e08c7019"
+    },
+    "equip.weapon.t2": {
+      "type": "image",
+      "path": "equip/weapon_t2.png",
+      "width": 512,
+      "height": 512,
+      "hash": "sha256:e476a253316f4a2223bd75edcfe4f72760493a4b5ad4197bc397447f10bbe7b2"
+    },
+    "equip.weapon.t2.icon": {
+      "type": "image",
+      "path": "equip/weapon_t2_icon.png",
+      "width": 176,
+      "height": 176,
+      "hash": "sha256:5db419251aa0096c95166fbb86933049520d565a03ae51c9815e644d4619f86f"
+    },
+    "equip.weapon.t3": {
+      "type": "image",
+      "path": "equip/weapon_t3.png",
+      "width": 512,
+      "height": 512,
+      "hash": "sha256:76e3a0a8566a062275b6d9187bdb4675f5a615fde463974e3944521defb93222"
+    },
+    "equip.weapon.t3.icon": {
+      "type": "image",
+      "path": "equip/weapon_t3_icon.png",
+      "width": 176,
+      "height": 176,
+      "hash": "sha256:d424e48331977b78434bec15fb0f017f29a85137fbe489aa81105d315f3c1b6f"
+    },
+    "equip.weapon.t4": {
+      "type": "image",
+      "path": "equip/weapon_t4.png",
+      "width": 512,
+      "height": 512,
+      "hash": "sha256:c549c588527e2a3f1f879d9339c2aecdd4e726d422739866526bbb07faa4bb66"
+    },
+    "equip.weapon.t4.icon": {
+      "type": "image",
+      "path": "equip/weapon_t4_icon.png",
+      "width": 176,
+      "height": 176,
+      "hash": "sha256:c85497707d8fddf3b45550c593d9dd2057b3a4819c09555bec8e871f62d0ea3f"
+    },
+    "equip.helm.t0": {
+      "type": "image",
+      "path": "equip/helm_t0.png",
+      "width": 512,
+      "height": 512,
+      "hash": "sha256:f81d73ead0f14566ab0c5840a8b264b711a0bf73221e8f52e72e53f7b2c7be11"
+    },
+    "equip.helm.t0.icon": {
+      "type": "image",
+      "path": "equip/helm_t0_icon.png",
+      "width": 176,
+      "height": 176,
+      "hash": "sha256:521a533824800e322789d3b2dfe2df658e5c793a8e16473e200a96dca44da7dc"
+    },
+    "equip.helm.t1": {
+      "type": "image",
+      "path": "equip/helm_t1.png",
+      "width": 512,
+      "height": 512,
+      "hash": "sha256:17524aa80b4223e3ff7c8ef4fbf168d07819b7b77d1b47e5c64ebd7d705a1d12"
+    },
+    "equip.helm.t1.icon": {
+      "type": "image",
+      "path": "equip/helm_t1_icon.png",
+      "width": 176,
+      "height": 176,
+      "hash": "sha256:5857bdae943c1204f1b2df204c88d0e0a5f19356a77c5e36b025f6faa35071a3"
+    },
+    "equip.helm.t2": {
+      "type": "image",
+      "path": "equip/helm_t2.png",
+      "width": 512,
+      "height": 512,
+      "hash": "sha256:598f38fb829a05629aefd5e5d922d8e57c61155276080fa93ed1cf59f271357b"
+    },
+    "equip.helm.t2.icon": {
+      "type": "image",
+      "path": "equip/helm_t2_icon.png",
+      "width": 176,
+      "height": 176,
+      "hash": "sha256:0078a3a1120757527e1e1abe4d9a99ff3ca4b1ba04df8f87fa00c3ffd4b6cf39"
+    },
+    "equip.helm.t3": {
+      "type": "image",
+      "path": "equip/helm_t3.png",
+      "width": 512,
+      "height": 512,
+      "hash": "sha256:43afea598072ea147e4cf9f7471f5a8f5079a24daae06701be6d57d304dac3db"
+    },
+    "equip.helm.t3.icon": {
+      "type": "image",
+      "path": "equip/helm_t3_icon.png",
+      "width": 176,
+      "height": 176,
+      "hash": "sha256:78833ed5a970fd748ef4ecfa937482f4244b2a0eb541c079c41adf7dcb57edfa"
+    },
+    "equip.helm.t4": {
+      "type": "image",
+      "path": "equip/helm_t4.png",
+      "width": 512,
+      "height": 512,
+      "hash": "sha256:fed6f08ac7f79f2784e262e4c6527f4b7d50d704fe9ce1f5d0b348545326ee7a"
+    },
+    "equip.helm.t4.icon": {
+      "type": "image",
+      "path": "equip/helm_t4_icon.png",
+      "width": 176,
+      "height": 176,
+      "hash": "sha256:84ebe8e9cf9df612b1e2419eabdb3eeb80441872a60e211a8669ee662415f591"
+    },
+    "equip.armor.t0": {
+      "type": "image",
+      "path": "equip/armor_t0.png",
+      "width": 512,
+      "height": 512,
+      "hash": "sha256:3813dbc50d5dbc1858b27cf65a9924d778350b61da10fbc095bd271819c43c5a"
+    },
+    "equip.armor.t0.icon": {
+      "type": "image",
+      "path": "equip/armor_t0_icon.png",
+      "width": 176,
+      "height": 176,
+      "hash": "sha256:90ac8d3d908b82e1044b76bbfe4d63379676b3de98219e817f2d05646371b9f4"
+    },
+    "equip.armor.t1": {
+      "type": "image",
+      "path": "equip/armor_t1.png",
+      "width": 512,
+      "height": 512,
+      "hash": "sha256:b7ed3fb8f0ae88ee8d77896a0094604fd68779787cf757ecec81aa6216c5183a"
+    },
+    "equip.armor.t1.icon": {
+      "type": "image",
+      "path": "equip/armor_t1_icon.png",
+      "width": 176,
+      "height": 176,
+      "hash": "sha256:ad10a430c9aaaa7db409ecf664df7bda48e4b2f574c7540d551bee786e4a956b"
+    },
+    "equip.armor.t2": {
+      "type": "image",
+      "path": "equip/armor_t2.png",
+      "width": 512,
+      "height": 512,
+      "hash": "sha256:04fc226092dc624444ccd25c2a7480d7eb039676d98dd5f3e94e6d106a7f3ec8"
+    },
+    "equip.armor.t2.icon": {
+      "type": "image",
+      "path": "equip/armor_t2_icon.png",
+      "width": 176,
+      "height": 176,
+      "hash": "sha256:fe1e86817e763544601f336a130f8d7b82de857e589ba74ce6c6d20c567ad2bb"
+    },
+    "equip.armor.t3": {
+      "type": "image",
+      "path": "equip/armor_t3.png",
+      "width": 512,
+      "height": 512,
+      "hash": "sha256:13428273a453775e6c9ecc90d81a535d3c25863a5dcca0ff3e0db4b7758ef44b"
+    },
+    "equip.armor.t3.icon": {
+      "type": "image",
+      "path": "equip/armor_t3_icon.png",
+      "width": 176,
+      "height": 176,
+      "hash": "sha256:b251d44d27576a9995c34fa50f924dc376069a4fb50813e53ddb05684c1f775f"
+    },
+    "equip.armor.t4": {
+      "type": "image",
+      "path": "equip/armor_t4.png",
+      "width": 512,
+      "height": 512,
+      "hash": "sha256:7e0d3abe66bacfa9a7893728ddd8bf8dd8ee4e722219e0f57efcee897d93a0c3"
+    },
+    "equip.armor.t4.icon": {
+      "type": "image",
+      "path": "equip/armor_t4_icon.png",
+      "width": 176,
+      "height": 176,
+      "hash": "sha256:1c2eede52026f0d77f26441abe6399f508cab3e6282b9e5b7e412b00ad3efdca"
+    },
+    "equip.gloves.t0": {
+      "type": "image",
+      "path": "equip/gloves_t0.png",
+      "width": 512,
+      "height": 512,
+      "hash": "sha256:00394747199857014b5242b818e73551b3be35304cfc37e5ab0bc2336b819dae"
+    },
+    "equip.gloves.t0.icon": {
+      "type": "image",
+      "path": "equip/gloves_t0_icon.png",
+      "width": 176,
+      "height": 176,
+      "hash": "sha256:fb6690816f80f5113f8b6a4a1fc68b698b801e2dce9a5773560eb721d09e99bb"
+    },
+    "equip.gloves.t1": {
+      "type": "image",
+      "path": "equip/gloves_t1.png",
+      "width": 512,
+      "height": 512,
+      "hash": "sha256:e404dcb0895f0d6b74b0b3139a520b1881fd68576665bd835844c7ebed4a9b44"
+    },
+    "equip.gloves.t1.icon": {
+      "type": "image",
+      "path": "equip/gloves_t1_icon.png",
+      "width": 176,
+      "height": 176,
+      "hash": "sha256:5527dffc3e0281dac238103ca0c25a6c9c8b533fe7e6e8f6e0ca31a8e7b0d577"
+    },
+    "equip.gloves.t2": {
+      "type": "image",
+      "path": "equip/gloves_t2.png",
+      "width": 512,
+      "height": 512,
+      "hash": "sha256:f89e93c659b3821bbf35b83d6f1d965f2a44f0867a1ea8b25cd8e8922c90cba1"
+    },
+    "equip.gloves.t2.icon": {
+      "type": "image",
+      "path": "equip/gloves_t2_icon.png",
+      "width": 176,
+      "height": 176,
+      "hash": "sha256:9b7d640d8d45d61023dab0c6a00badb9086d2a9264a24d40a137fd96598c32c1"
+    },
+    "equip.gloves.t3": {
+      "type": "image",
+      "path": "equip/gloves_t3.png",
+      "width": 512,
+      "height": 512,
+      "hash": "sha256:03edbe3a6a3eef599a691bbeb00010cbeba3e35524694ef07d83142db3f98308"
+    },
+    "equip.gloves.t3.icon": {
+      "type": "image",
+      "path": "equip/gloves_t3_icon.png",
+      "width": 176,
+      "height": 176,
+      "hash": "sha256:77cfb4060be259356f27ec244f3f778ebc823c66cca169e448efabefda06fa1c"
+    },
+    "equip.gloves.t4": {
+      "type": "image",
+      "path": "equip/gloves_t4.png",
+      "width": 512,
+      "height": 512,
+      "hash": "sha256:813925462f08d218dc4e7cb7ddc3dc463a28b0a1cdad11c2bd987b5ccd665533"
+    },
+    "equip.gloves.t4.icon": {
+      "type": "image",
+      "path": "equip/gloves_t4_icon.png",
+      "width": 176,
+      "height": 176,
+      "hash": "sha256:aa5001dd40e98bdaba62de323f282366a5acdd52df13d5b7193996d267b2fc2e"
+    },
+    "equip.boots.t0": {
+      "type": "image",
+      "path": "equip/boots_t0.png",
+      "width": 512,
+      "height": 512,
+      "hash": "sha256:5a35f350a380d0a0dda86f966b9a151aa24279ffccb2d0ed933f8fd3536d4b7c"
+    },
+    "equip.boots.t0.icon": {
+      "type": "image",
+      "path": "equip/boots_t0_icon.png",
+      "width": 176,
+      "height": 176,
+      "hash": "sha256:bbe558498c5238459b61eb72b81a782ca0a3391ba641d898c131dd5e4cf91c55"
+    },
+    "equip.boots.t1": {
+      "type": "image",
+      "path": "equip/boots_t1.png",
+      "width": 512,
+      "height": 512,
+      "hash": "sha256:622c1ed771cf45e5502ce12392cfbfc9acde9d321d3b55108de91eded718d4d1"
+    },
+    "equip.boots.t1.icon": {
+      "type": "image",
+      "path": "equip/boots_t1_icon.png",
+      "width": 176,
+      "height": 176,
+      "hash": "sha256:a064bf1be037d4526c27c52f57a3edaa887c27d8654ea6118987c00646731bfe"
+    },
+    "equip.boots.t2": {
+      "type": "image",
+      "path": "equip/boots_t2.png",
+      "width": 512,
+      "height": 512,
+      "hash": "sha256:360a188605d09ba08ebc2b217edeb9457ae5acb3a351e10cb1056028db77778f"
+    },
+    "equip.boots.t2.icon": {
+      "type": "image",
+      "path": "equip/boots_t2_icon.png",
+      "width": 176,
+      "height": 176,
+      "hash": "sha256:372bd804980e0fb9a3deae0afb3978f29ce54d370fb7edd09ccc40320029518b"
+    },
+    "equip.boots.t3": {
+      "type": "image",
+      "path": "equip/boots_t3.png",
+      "width": 512,
+      "height": 512,
+      "hash": "sha256:01653547aaed26f59b06fde7d617381104d36883dd7375829ff554141ad826a9"
+    },
+    "equip.boots.t3.icon": {
+      "type": "image",
+      "path": "equip/boots_t3_icon.png",
+      "width": 176,
+      "height": 176,
+      "hash": "sha256:eaacbf69dd820d7c21f27c7c8aa83317aec8b1eb653558b33369fe0d9ca5ba4c"
+    },
+    "equip.boots.t4": {
+      "type": "image",
+      "path": "equip/boots_t4.png",
+      "width": 512,
+      "height": 512,
+      "hash": "sha256:0d72f211be8ccbadfe0170bcbb72a173128ea952730f3802d2d51ebaf01472f5"
+    },
+    "equip.boots.t4.icon": {
+      "type": "image",
+      "path": "equip/boots_t4_icon.png",
+      "width": 176,
+      "height": 176,
+      "hash": "sha256:6f51354215d603c4c51f7384738bc100147a92741755cb881bf40ba90376b0e1"
+    },
+    "bg_sky": {
+      "type": "image",
+      "path": "../western/background/bg_sky.jpg",
+      "width": 1500,
+      "height": 3248,
+      "hash": "sha256:b4d0664bcec11fb4798accca1140ded465c66b5732772d8da7fa94ade73cc603"
+    },
+    "bg_mountains": {
+      "type": "image",
+      "path": "../western/background/bg_mountains.png",
+      "width": 1500,
+      "height": 1200,
+      "hash": "sha256:20d95d23314badfe34f293d20184272a7290ec0f35cd7d49f229bb9903f26505"
+    },
+    "bg_mist": {
+      "type": "image",
+      "path": "../western/background/bg_mist.png",
+      "width": 1500,
+      "height": 600,
+      "hash": "sha256:724aceea9925b4fe4523bf2c3f10bfd5f99350a1dff656ae07f2ad9dd54ad0b8"
+    },
+    "stage_altar": {
+      "type": "image",
+      "path": "../western/background/stage_altar.png",
+      "width": 840,
+      "height": 240,
+      "hash": "sha256:aa598a6f472c6f51689efaeb7e0c1993e828b2457197b110096007bd36d64028"
+    },
+    "corner_ornament": {
+      "type": "image",
+      "path": "../western/ui/corner_ornament.png",
+      "width": 48,
+      "height": 48,
+      "hash": "sha256:f382db9509686abc3d9baf04422f4405d77ba4f0e600a85fc54a1944ea9a6608"
+    },
+    "seal_frame": {
+      "type": "image",
+      "path": "../western/ui/seal_frame.png",
+      "width": 96,
+      "height": 96,
+      "hash": "sha256:a60e43dff3a5b1596986c2dad4b8c671ceca3747a782e1846bc6315d2da5021e"
+    },
+    "icon_stone": {
+      "type": "image",
+      "path": "../western/ui/icon_stone.png",
+      "width": 160,
+      "height": 160,
+      "hash": "sha256:d17ec60546dc8a4d0dce20fb7c12d8ba56b9cc50eafd9332ef76b9ff88ebb166"
+    },
+    "fx_glow_soft": {
+      "type": "image",
+      "path": "../western/fx/fx_glow_soft.png",
+      "width": 256,
+      "height": 256,
+      "hash": "sha256:99703c98b70955dfcfa70a66168bae37db9ff42a9d9ef8171ef4aec3b73aabec"
+    },
+    "fx_sparkle": {
+      "type": "image",
+      "path": "../western/fx/fx_sparkle.png",
+      "width": 64,
+      "height": 64,
+      "hash": "sha256:c04c894efbcc566979e6db1896c864bae4b9cbf2c18653f32cc9c5951997f6f0"
+    },
+    "fx_ring_rune": {
+      "type": "image",
+      "path": "../western/fx/fx_ring_rune.png",
+      "width": 1024,
+      "height": 1024,
+      "hash": "sha256:fa6cdd6ebc593b8492e477dd2bb18064c5c0784ba44691267a34ae149e762001"
+    },
+    "fx_shock_ring": {
+      "type": "image",
+      "path": "../western/fx/fx_shock_ring.png",
+      "width": 512,
+      "height": 512,
+      "hash": "sha256:8a0a8a4846e0dd62cf986ed74f1f5640d5594f100b26f08ccf00571ddfbe0c24"
+    },
+    "fx_ray": {
+      "type": "image",
+      "path": "../western/fx/fx_ray.png",
+      "width": 64,
+      "height": 512,
+      "hash": "sha256:3e601cc712bc5634ccc2f0436b2a3f93ebdf75048f329a02a09613079d868e0a"
+    },
+    "fx_flame_seq": {
+      "type": "image",
+      "path": "../western/fx/fx_flame_seq.png",
+      "width": 2048,
+      "height": 256,
+      "hash": "sha256:2da033af4385fa080d9b6fa4bb9218ef3df0079c221e00b3cea0b17f0e57cde8"
+    },
+    "fx_flame_seq.frames": {
+      "type": "json",
+      "path": "../western/fx/fx_flame_seq.json",
+      "hash": "sha256:c82dc73d0ab004244ab81f8545191696cdcdbb29f430949d1bb24afa9d6e90c5"
+    },
+    "fx_lightning_seq": {
+      "type": "image",
+      "path": "../western/fx/fx_lightning_seq.png",
+      "width": 3072,
+      "height": 128,
+      "hash": "sha256:64e92c1caac187d649d3a65ef183741c847da3144b16bfc82ef8c641565a2578"
+    },
+    "fx_lightning_seq.frames": {
+      "type": "json",
+      "path": "../western/fx/fx_lightning_seq.json",
+      "hash": "sha256:b1b7a5263139529543410a36326eccd2fda16e9a8e6dc1cf56d07372695bef20"
+    },
+    "fx_smoke": {
+      "type": "image",
+      "path": "../western/fx/fx_smoke.png",
+      "width": 256,
+      "height": 256,
+      "hash": "sha256:b5cc7ecfc472bce4b2dfe09984c23f42192a353464597a49450e3c2dbbe3b2b9"
+    },
+    "fx_crack": {
+      "type": "image",
+      "path": "../western/fx/fx_crack.png",
+      "width": 512,
+      "height": 512,
+      "hash": "sha256:a1804f352b667a9eee81a7863383522741d78ae4a9b1303f111c74bd3925bd80"
+    },
+    "fx_confetti": {
+      "type": "image",
+      "path": "../western/fx/fx_confetti.png",
+      "width": 128,
+      "height": 32,
+      "hash": "sha256:73b74a121485e41eea61d40f63e30686a0066df2a2fd1ac59ce7e945d1f26d86"
+    },
+    "fx_confetti.frames": {
+      "type": "json",
+      "path": "../western/fx/fx_confetti.json",
+      "hash": "sha256:c94fa9178d67277518ff487b6b3808272e182601b807b174ef85c906d716d1f3"
+    },
+    "sfx.press": {
+      "type": "audio",
+      "path": "../western/audio/sfx.press.mp3",
+      "hash": "sha256:ce7e35ab70a11cdf9ee2084d52345fc94f7c7abfc671656899f17017a6e58cc7"
+    },
+    "sfx.slot_select": {
+      "type": "audio",
+      "path": "../western/audio/sfx.slot_select.mp3",
+      "hash": "sha256:21073b6be18151be3fc27d43dfeec323ecacf622077d026003d155325e64fddc"
+    },
+    "sfx.tab": {
+      "type": "audio",
+      "path": "../western/audio/sfx.tab.mp3",
+      "hash": "sha256:3f3446cad2fc14025e343f19268fff28cacf842042187496964d7e793798f7ee"
+    },
+    "sfx.charge": {
+      "type": "audio",
+      "path": "../western/audio/sfx.charge.mp3",
+      "hash": "sha256:5263c0b928523f57d374a41f1211e5cf1660e2c62cfaa270619ff98ae6332e14"
+    },
+    "sfx.heartbeat": {
+      "type": "audio",
+      "path": "../western/audio/sfx.heartbeat.mp3",
+      "hash": "sha256:145be06c2a4cb9d9be86bd6f8b01c7d0b803a904418f0086f9c65625726f0e45"
+    },
+    "sfx.wait_loop": {
+      "type": "audio",
+      "path": "../western/audio/sfx.wait_loop.mp3",
+      "hash": "sha256:733f1bfc01c36ea0da1c0ac9188784d45b2b516db7be50983e420c2d7a92d75c"
+    },
+    "sfx.success": {
+      "type": "audio",
+      "path": "../western/audio/sfx.success.mp3",
+      "hash": "sha256:f1e95b1ef0a4453705d07b4d8d94d2c7fd0d338f7da8e4ab7a8c2d5e59e018c8"
+    },
+    "sfx.success_high": {
+      "type": "audio",
+      "path": "../western/audio/sfx.success_high.mp3",
+      "hash": "sha256:1e7f1f06df78620e8f194d4609531a8c774e0b1337d971cb5d1c77a7d7e9bb8c"
+    },
+    "sfx.tier_up": {
+      "type": "audio",
+      "path": "../western/audio/sfx.tier_up.mp3",
+      "hash": "sha256:db286732d3f0cc0d453af40242d645ea5b6042d375200dc32e0fd46947e440b3"
+    },
+    "sfx.fail": {
+      "type": "audio",
+      "path": "../western/audio/sfx.fail.mp3",
+      "hash": "sha256:f99ae06c692422ac72948a0671d18f097ca4b35af1e77d255eea1da7139414a1"
+    },
+    "sfx.fail_drop": {
+      "type": "audio",
+      "path": "../western/audio/sfx.fail_drop.mp3",
+      "hash": "sha256:0aab753c2b1de6f6131f2a1022a0ecaad3f696b85dfadb8f007229fe87c964de"
+    },
+    "sfx.record": {
+      "type": "audio",
+      "path": "../western/audio/sfx.record.mp3",
+      "hash": "sha256:d7f4534e0de1aa171aae88d08df63af504d30de3b3d87303d8c2dcb2d28ffd31"
+    },
+    "sfx.claim": {
+      "type": "audio",
+      "path": "../western/audio/sfx.claim.mp3",
+      "hash": "sha256:dc279b9f4c2cb33622ec0919af4d87f775291a1c7764bbe700949ce8f88fde06"
+    },
+    "sfx.coin_fly": {
+      "type": "audio",
+      "path": "../western/audio/sfx.coin_fly.mp3",
+      "hash": "sha256:a9df987b0cfb05f482b22b73688a7b5ba87c625234ca78f59f3c211a548ca492"
+    },
+    "sfx.popup_open": {
+      "type": "audio",
+      "path": "../western/audio/sfx.popup_open.mp3",
+      "hash": "sha256:9a88475ac62f0d017b8558e5bbb37b05c5b21da13688650762bbe0787fced028"
+    },
+    "sfx.popup_close": {
+      "type": "audio",
+      "path": "../western/audio/sfx.popup_close.mp3",
+      "hash": "sha256:a599c107d219b1ab66c18b868ed25055d1e8be0bd89a57b073b8f08943f2a5d2"
+    },
+    "sfx.toast": {
+      "type": "audio",
+      "path": "../western/audio/sfx.toast.mp3",
+      "hash": "sha256:917ea87b5e77ebdfb4f0ca44cfe020064ae232c10383ace39302d8648788754f"
+    },
+    "sfx.rank_up": {
+      "type": "audio",
+      "path": "../western/audio/sfx.rank_up.mp3",
+      "hash": "sha256:fe758a893d2c0709c88ac226b0e6ed1b7524cb4c414bf967903e667f627708d9"
+    },
+    "bgm.main": {
+      "type": "audio",
+      "path": "../western/audio/bgm.main.mp3",
+      "hash": "sha256:710737b50da4efc19dce2e1421bb3a54283bce3d03858f76978d83793eedd760"
+    },
+    "bgm.rank": {
+      "type": "audio",
+      "path": "../western/audio/bgm.rank.mp3",
+      "hash": "sha256:fb3c0b4a84fdd1faa00fa0577da811829efa84c845adc6dfbb910d43102a4342"
+    },
+    "logo": {
+      "type": "image",
+      "path": "../western/ui/logo.svg",
+      "hash": "sha256:3d2b67037a6895d9e78ee7a6a27be4f2a6346a0b45573964d9c785dc6fdb9b7b"
+    },
+    "bgm.loading": {
+      "type": "audio",
+      "path": "../western/audio/bgm.loading.mp3",
+      "hash": "sha256:04ffd9a68e25803170611d5628fc732510e28bdae812c88899b0bae07781bda0"
+    },
+    "sfx.hammer": {
+      "type": "audio",
+      "path": "../western/audio/sfx.hammer.mp3",
+      "hash": "sha256:0aa45fb7e9557e4dee2b20c1b21799adafbf191bb1a3a0c24c7eb325d6644738"
+    },
+    "sfx.hammer_success": {
+      "type": "audio",
+      "path": "../western/audio/sfx.hammer_success.mp3",
+      "hash": "sha256:c8e400aef3c8a7735cada1c0a9b92450564109a7924083359c64fd38f334f0e3"
+    },
+    "sfx.hammer_fail": {
+      "type": "audio",
+      "path": "../western/audio/sfx.hammer_fail.mp3",
+      "hash": "sha256:5b14d7ad8ff11b2e4b2a430057cd1d1d2ac4f404214df886203173996ec9c52b"
+    },
+    "fx_ring_outer": {
+      "type": "image",
+      "path": "../western/fx/fx_ring_outer.png",
+      "width": 1024,
+      "height": 1024,
+      "hash": "sha256:d18e7a72222d1c34cb554bb8338de0e118332972cb44b0cd726a6a94da5f140c"
+    },
+    "fx_ring_mid": {
+      "type": "image",
+      "path": "../western/fx/fx_ring_mid.png",
+      "width": 696,
+      "height": 696,
+      "hash": "sha256:043c752798d3bb0d9dbbb71f494976ad5f31c433ad091bdfa3df4eb84b86a5a4"
+    },
+    "fx_ring_inner": {
+      "type": "image",
+      "path": "../western/fx/fx_ring_inner.png",
+      "width": 425,
+      "height": 425,
+      "hash": "sha256:8eecc5bfc16134e70c641d13ae5916a0d28b09bcfb72068aefc072c6be971df1"
+    },
+    "stage_dais": {
+      "type": "image",
+      "path": "../western/background/stage_dais.png",
+      "width": 1024,
+      "height": 471,
+      "hash": "sha256:e7f9da14d902f2de06ed9f31d139c7931fd22912cea477ae98763b58a704f125"
+    },
+    "bg_cloudsea": {
+      "type": "image",
+      "path": "../western/background/bg_cloudsea.png",
+      "width": 1500,
+      "height": 511,
+      "hash": "sha256:ab7e3e7577bb1c944a6fc3c223e5fbde91c96b8a24ecf1c5cee79c884c42d12a"
+    },
+    "bg_mist_near": {
+      "type": "image",
+      "path": "../western/background/bg_mist_near.png",
+      "width": 1500,
+      "height": 449,
+      "hash": "sha256:1b777a36267a78499b6caf13a4ec76b16a7b4e36f2f92d34b8df43173546ec87"
+    }
+  }
+}
