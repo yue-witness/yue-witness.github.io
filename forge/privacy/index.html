@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>《每日强化挑战》隐私政策 / Forge Simulator: Epic Gear Privacy Policy</title>
-<meta name="description" content="游戏《每日强化挑战》（Forge Simulator: Epic Gear，com.xueyue.qianghua）在微信小游戏、TapTap 与 Google Play 渠道的隐私政策与第三方 SDK 清单。Privacy policy and third-party SDK list for Forge Simulator: Epic Gear.">
+<meta name="description" content="游戏《每日强化挑战》（Forge Simulator: Epic Gear，com.xueyue.qianghua）在微信小游戏、TapTap、Google Play 与 itch.io 渠道的隐私政策与第三方 SDK 清单。Privacy policy and third-party SDK list for Forge Simulator: Epic Gear.">
 <link rel="icon" href="../../icon.svg" type="image/svg+xml">
 <style>
   :root { --ink: #2B2350; --ink-soft: #4B4374; --bg: #EAF3FF; --card: #FFFFFF; --line: #C6D3EE; --accent: #7444E8; }
@@ -37,13 +37,13 @@
 
   <div class="card" id="zh">
     <h1>《每日强化挑战》隐私政策</h1>
-    <p class="meta">更新日期：2026 年 11 月 3 日</p>
+    <p class="meta">更新日期：2026 年 11 月 6 日</p>
 
-    <p>本政策适用于游戏《每日强化挑战》（英文名 Forge Simulator: Epic Gear，以下称“本游戏”）的三个渠道：微信小游戏、TapTap 安卓版与 Google Play 安卓版（两个安卓版的包名均为 com.xueyue.qianghua）。本游戏由独立游戏工作室“血月的工作室”（Blood Moon Studio，以下称“我们”）开发运营。本政策说明本游戏处理哪些信息、为什么处理、保存在哪里，以及接入的第三方 SDK 与平台能力。</p>
-    <p>本游戏不接入广告 SDK，没有付费功能，不要求你填写姓名、手机号或邮箱，也不获取你的平台昵称、头像、精确位置、通讯录或好友关系。</p>
+    <p>本政策适用于游戏《每日强化挑战》（英文名 Forge Simulator: Epic Gear，以下称“本游戏”）的以下渠道：微信小游戏、TapTap 安卓版、Google Play 安卓版（这两个安卓版的包名均为 com.xueyue.qianghua），以及在 itch.io 发布的安卓版（包名 com.xueyue.qianghua.itch）与浏览器版（HTML5）。本游戏由独立游戏工作室“血月的工作室”（Blood Moon Studio，以下称“我们”）开发运营。本政策说明本游戏处理哪些信息、为什么处理、保存在哪里，以及接入的第三方 SDK 与平台能力。</p>
+    <p>Google Play 版与 itch.io 安卓版包含激励视频广告，只在你主动点击“观看视频”领取额外的每日材料时播放；微信小游戏、TapTap 版与 itch.io 浏览器版没有广告。本游戏没有付费功能。除 itch.io 版需要你自取一个用户名外，本游戏不要求你填写姓名、手机号或邮箱，也不获取你的平台昵称、头像、精确位置、通讯录或好友关系。</p>
 
     <h2>一、同意在先</h2>
-    <p>首次点击“开始”时，本游戏会先弹出隐私政策同意框。在你点击“同意”之前，本游戏不会登录，不会初始化任何第三方 SDK（TapTap 版不初始化 TapSDK 的任何组件，包括其数据分析模块与 ThemisLite；Google Play 版不初始化 Play 游戏服务，也不会自动登录），不会调用微信登录，也不会向我们的服务器发送任何账号或游戏数据。不同意则无法开始游戏。</p>
+    <p>首次点击“开始”时，本游戏会先弹出隐私政策同意框。在你点击“同意”之前，本游戏不会登录，不会初始化任何第三方 SDK（TapTap 版不初始化 TapSDK 的任何组件，包括其数据分析模块与 ThemisLite；Google Play 版不初始化 Play 游戏服务，也不会自动登录；Google Play 版与 itch.io 安卓版不初始化任何广告 SDK，包括 Google 移动广告 SDK、UMP 与 Unity Ads），不会调用微信登录，也不会向我们的服务器发送任何账号或游戏数据。不同意则无法开始游戏。</p>
 
     <h2>二、登录与我们服务器保存的信息</h2>
     <p>本游戏的强化结果、排行榜与每日资源由我们的服务器计算和保存。登录方式按渠道不同：</p>
@@ -51,24 +51,25 @@
       <li>微信小游戏：调用微信 <code>wx.login</code> 取得一次性登录凭证，服务器向微信换取你在本游戏下的 openid。微信同时返回的会话密钥等信息不保存。</li>
       <li>TapTap 版：通过 TapTap 登录 SDK 授权，服务器用授权令牌向 TapTap 查询你在本游戏下的 openid。TapTap 同时返回的昵称、头像与 unionid 不保存。</li>
       <li>Google Play 版：通过 Play 游戏服务取得一次性服务器授权码，服务器向 Google 换取你的 Play 游戏玩家 ID（playerId）。Google 同时返回的游戏昵称、头像等不保存，访问令牌只在本次登录中使用，不保存。</li>
+      <li>itch.io 版（安卓版与浏览器版）：没有平台账号。首次启动时，游戏随机生成一个设备标识保存在本机（安卓版在应用私有存储中，浏览器版在浏览器本地存储中），并请你输入一个 2～16 个字符的用户名（可使用文字、数字、空格及 _ - .），该用户名会显示在排行榜上。之后游戏以该标识登录。该标识由游戏随机生成，不是设备的硬件标识或广告标识。卸载本游戏、清除应用数据或浏览器存储后会生成新的标识并成为新账号，原账号无法找回。</li>
       <li>测试期间，若某个渠道的登录尚未开通，本游戏可能改用测试登录：在本机随机生成一个测试标识并以它登录。该标识由游戏随机生成，不是设备的硬件标识。正式上线前会关闭测试登录。</li>
     </ul>
     <p>我们的服务器保存以下信息：</p>
     <ul>
-      <li>账号：上述平台账号标识（openid 或 playerId，测试期为随机测试标识）、系统分配的内部玩家编号、系统随机生成的匿名显示名（如“某名字#1234”）、首次登录渠道（微信 / TapTap / Google Play / 测试）与创建时间。</li>
+      <li>账号：上述平台账号标识（openid、playerId 或 itch.io 版的随机设备标识，测试期为随机测试标识）、系统分配的内部玩家编号、显示名（系统随机生成的匿名显示名，如“某名字#1234”；itch.io 版为你填写的用户名）、首次登录渠道（微信 / TapTap / Google Play / itch.io / 测试）与创建时间。</li>
       <li>游戏记录：每日资源的领取记录（来源与数量）、资源余额与消耗流水；每次强化的部位、等级变化、成败结果、消耗、服务器生成的随机数与时间；各部位当前等级与分数、每日最终分数与名次、历史最佳成绩。</li>
       <li>请求记录：每次领取与强化请求的编号和服务器响应，用于防止网络重试导致重复领取或重复强化。</li>
       <li>服务器日志：访问日志可能包含你的 IP 地址、请求时间、请求地址与客户端标识（User-Agent）；应用日志可能包含内部玩家编号与强化结果。日志只用于排查故障与防止滥用。服务器还会在内存中短暂使用 IP 地址限制请求频率。</li>
     </ul>
 
     <h2>三、排行榜与分享</h2>
-    <p>排行榜向其他玩家公开显示你的匿名显示名、名次、分数与渠道（微信 / TapTap / Google Play）。排行榜分为两个独立的服：微信小游戏与 TapTap 版共用中国大陆服，Google Play 版使用海外服。</p>
+    <p>排行榜向其他玩家公开显示你的显示名（匿名显示名；itch.io 版为你填写的用户名）、名次、分数与渠道（微信 / TapTap / Google Play / itch.io）。排行榜分为两个独立的服：微信小游戏与 TapTap 版共用中国大陆服，Google Play 版与 itch.io 版使用海外服。</p>
     <p>游戏提供“分享今日成绩”等分享功能：安卓版调用系统分享面板，微信小游戏调用微信分享面板。分享内容由游戏生成，分享给谁由你在系统或微信中选择，本游戏不获取分享对象，也不读取你的通讯录或好友关系。</p>
 
     <h2>四、保存在你设备上的信息</h2>
-    <p>本游戏在本机存储中保存：设置（总音量、音乐与音效开关及音量、快速模式、语言）、隐私政策同意状态、已查看过的每日结算与当日结束提示、掉级提示“本日内不再提示”的勾选日期，以及测试期可能生成的随机测试标识。登录后取得的游戏令牌只保存在运行内存中。TapTap SDK 与 Play 游戏服务会按各自机制在本机保存其登录状态。安卓版关闭了系统备份，这些数据不会随系统备份上传。</p>
-    <p>你可以在系统设置中清除本游戏的存储或卸载本游戏（微信小游戏可在微信中删除本小游戏）来删除这些数据。</p>
-    <p>安卓版只声明以下三项普通权限，安装时自动授予、不会弹窗申请：网络访问（INTERNET）、读取网络连接状态（ACCESS_NETWORK_STATE，用于判断是否联网）、震动（VIBRATE，用于按键与强化反馈）。本游戏不申请定位、通讯录、相机、麦克风、电话、照片或文件等权限。</p>
+    <p>本游戏在本机存储中保存：设置（总音量、音乐与音效开关及音量、快速模式、语言）、隐私政策同意状态、已查看过的每日结算与当日结束提示、掉级提示“本日内不再提示”的勾选日期、itch.io 版的随机设备标识，以及测试期可能生成的随机测试标识。登录后取得的游戏令牌只保存在运行内存中。TapTap SDK 与 Play 游戏服务会按各自机制在本机保存其登录状态；广告 SDK 与 UMP 会按各自机制在本机保存你的广告同意选择等信息。安卓版关闭了系统备份，这些数据不会随系统备份上传。</p>
+    <p>你可以在系统设置中清除本游戏的存储或卸载本游戏（微信小游戏可在微信中删除本小游戏，itch.io 浏览器版可清除浏览器中该网站的数据）来删除这些数据。</p>
+    <p>安卓版声明以下三项普通权限，安装时自动授予、不会弹窗申请：网络访问（INTERNET）、读取网络连接状态（ACCESS_NETWORK_STATE，用于判断是否联网）、震动（VIBRATE，用于按键与强化反馈）。Google Play 版与 itch.io 安卓版另含广告 SDK 及其依赖库声明的普通权限，同样安装时自动授予、不会弹窗：广告标识（com.google.android.gms.permission.AD_ID）、Android 广告服务（ACCESS_ADSERVICES_AD_ID、ACCESS_ADSERVICES_ATTRIBUTION、ACCESS_ADSERVICES_TOPICS）、WAKE_LOCK 与 FOREGROUND_SERVICE。本游戏不申请定位、通讯录、相机、麦克风、电话、照片或文件等权限。</p>
 
     <h2>五、接入的第三方 SDK 与平台能力</h2>
     <p>以下 SDK 与平台能力由各提供方按其自身隐私政策处理信息。SDK 自行采集的设备与网络信息直接发送给提供方，我们收不到。</p>
@@ -114,18 +115,41 @@
       <li>隐私政策：<a href="https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&amp;t=weixin_agreement&amp;s=privacy">微信隐私保护指引</a></li>
     </ul>
 
+    <h3>4. Google 移动广告 SDK（AdMob）与 User Messaging Platform（UMP）</h3>
+    <ul>
+      <li>SDK 名称与版本：Google 移动广告 SDK <code>com.google.android.gms:play-services-ads</code> 25.5.0；Google User Messaging Platform <code>com.google.android.ump:user-messaging-platform</code> 4.0.0；AdMob 中介的 Unity Ads 适配器 <code>com.google.ads.mediation:unity</code> 4.20.1.0。</li>
+      <li>提供方：Google LLC</li>
+      <li>适用渠道：Google Play 版、itch.io 安卓版</li>
+      <li>使用目的：在你点击“观看视频”时加载并播放激励视频广告，看完后发放额外的每日材料；通过 AdMob 中介向 Unity Ads 请求广告；UMP 用于在需要的地区展示 Google 的同意消息并保存你的广告同意选择。据 Google 说明，相关信息用于广告投放、效果衡量、频次控制、防止欺诈，以及在你同意时投放个性化广告。</li>
+      <li>收集的个人信息：据 Google 说明，可能包括设备广告标识（Android 广告 ID）、IP 地址及据此推断的大致位置、设备与应用信息、广告互动数据、诊断与性能数据。具体以 Google 说明为准。</li>
+      <li>收集方式：SDK 自行采集。UMP 与 Google 移动广告 SDK 只在你点击“同意”本政策之后才初始化，之前不运行、不采集。</li>
+      <li>隐私政策：<a href="https://policies.google.com/technologies/partner-sites">Google 如何使用来自使用其服务的网站或应用的信息 https://policies.google.com/technologies/partner-sites</a>；<a href="https://policies.google.com/privacy">Google 隐私政策</a></li>
+    </ul>
+
+    <h3>5. Unity Ads</h3>
+    <ul>
+      <li>SDK 名称与版本：Unity Ads SDK <code>com.unity3d.ads:unity-ads</code> 4.20.1</li>
+      <li>提供方：Unity Technologies</li>
+      <li>适用渠道：Google Play 版、itch.io 安卓版</li>
+      <li>使用目的：作为激励视频广告的来源，既经 AdMob 中介提供广告，也由本游戏直接请求广告。据 Unity 说明，相关信息用于广告投放、效果衡量、频次控制、防止欺诈，以及在你同意时投放个性化广告。</li>
+      <li>收集的个人信息：据 Unity 说明，可能包括设备广告标识（Android 广告 ID）、IP 地址及据此推断的大致位置、设备与应用信息、广告互动数据、诊断与性能数据。具体以 Unity 隐私政策为准。</li>
+      <li>收集方式：SDK 自行采集。Unity Ads 只在你点击“同意”本政策之后才初始化；本游戏会把你在 Google 同意消息中的选择（包括美国相关州的“不出售或共享”选择）传给 Unity Ads。</li>
+      <li>隐私政策：<a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Unity 游戏玩家与应用用户隐私政策 https://unity.com/legal/game-player-and-app-user-privacy-policy</a></li>
+    </ul>
+
     <p>此外，安卓版包含 AndroidX WebKit 支持库 1.14.0（<code>androidx.webkit:webkit</code>，Google 提供的开源组件），只用于在应用内显示游戏页面，不收集个人信息。</p>
 
     <h2>六、未成年人</h2>
     <p>我们不会主动收集未成年人的个人信息。未满 14 周岁的未成年人应在监护人阅读并同意本政策后使用本游戏。</p>
 
     <h2>七、共享、存储地点与保存期限</h2>
-    <p>我们不出售、不共享你的个人信息，也不用于广告。除上文所述向微信、TapTap、Google 核验登录，以及排行榜向其他玩家公开显示匿名名与成绩外，我们不向第三方提供你的信息。</p>
-    <p>服务器存储地点：微信小游戏与 TapTap 版的数据保存在腾讯云（中国上海）的服务器；Google Play 版的数据保存在 Google Cloud（中国台湾，asia-east1）的服务器。两服数据库互不相通，数据库与缓存只在服务器内部网络运行，不对外开放。</p>
+    <p>我们不出售我们服务器上保存的你的信息，也不将其用于广告。除上文所述向微信、TapTap、Google 核验登录，以及排行榜向其他玩家公开显示显示名与成绩外，我们不向第三方提供你的信息。Google Play 版与 itch.io 安卓版中的广告 SDK 按第五部分所述直接收集信息并发送给 Google 与 Unity，我们收不到这些信息。</p>
+    <p>服务器存储地点：微信小游戏与 TapTap 版的数据保存在腾讯云（中国上海）的服务器；Google Play 版与 itch.io 版的数据保存在 Google Cloud（中国台湾，asia-east1）的服务器（海外服）。两服数据库互不相通，数据库与缓存只在服务器内部网络运行，不对外开放。</p>
     <p>保存期限：账号与游戏记录在本游戏运营期间保存，用于排行榜、历史最佳与防止重复领取，你可以随时要求删除；服务器日志按容量循环覆盖，不长期保存；数据库每日备份，备份保留 7 天。设备上的数据保存至你删除为止。</p>
 
     <h2>八、你的选择与权利</h2>
-    <p>你可以拒绝本政策（此时无法开始游戏），可以在系统设置中清除本游戏数据或卸载本游戏。你可以通过下方邮箱要求查阅、更正或删除我们服务器上与你账号相关的信息，请在邮件中注明渠道与游戏内显示的匿名名，我们会在核实后尽快处理，一般不超过 15 个工作日。删除后，你的排行榜记录与历史最佳将一并清除；已删除的数据最长在 7 天内随备份轮换清除。对第三方 SDK 与平台处理的信息，可依据其隐私政策向提供方行使权利。</p>
+    <p>你可以拒绝本政策（此时无法开始游戏），可以在系统设置中清除本游戏数据或卸载本游戏。你可以通过下方邮箱要求查阅、更正或删除我们服务器上与你账号相关的信息，请在邮件中注明渠道与游戏内显示的匿名名（itch.io 版为用户名），我们会在核实后尽快处理，一般不超过 15 个工作日。删除后，你的排行榜记录与历史最佳将一并清除；已删除的数据最长在 7 天内随备份轮换清除。对第三方 SDK 与平台处理的信息，可依据其隐私政策向提供方行使权利。</p>
+    <p>广告选择（Google Play 版与 itch.io 安卓版）：广告只在你点击“观看视频”时播放，不看广告也可以正常游戏。在欧洲经济区、英国和瑞士，本游戏会展示 Google 的同意消息（UMP），由你选择是否同意广告相关的数据处理与个性化广告；在美国相关州，你可以选择不出售或共享你的个人信息。在需要的地区，设置页会显示“广告隐私选项”，你可以随时在其中更改选择。你还可以在 Android 系统设置中重置或删除广告 ID、限制个性化广告。</p>
 
     <h2>九、政策变更</h2>
     <p>如本游戏处理信息的方式发生变化，我们会更新本政策及上方的更新日期；接入新的 SDK 或新增收集项时会在游戏内重新征得你的同意。</p>
@@ -136,13 +160,13 @@
 
   <div class="card" id="en" lang="en">
     <h1>Forge Simulator: Epic Gear Privacy Policy</h1>
-    <p class="meta">Last updated: 3 November 2026</p>
+    <p class="meta">Last updated: 6 November 2026</p>
 
-    <p>This policy applies to the game "Forge Simulator: Epic Gear" (Chinese title 每日强化挑战, "the game") on three channels: the WeChat mini game, the TapTap Android edition and the Google Play Android edition (both Android editions use the package name com.xueyue.qianghua). The game is developed and operated by the independent game studio Blood Moon Studio (血月的工作室, "we", "us"). This policy explains what information the game handles, why, where it is stored, and which third-party SDKs and platform features it uses.</p>
-    <p>The game contains no advertising SDK and no purchases. It does not ask for your name, phone number or email address, and it does not obtain your platform nickname, avatar, precise location, contacts or friend list.</p>
+    <p>This policy applies to the game "Forge Simulator: Epic Gear" (Chinese title 每日强化挑战, "the game") on these channels: the WeChat mini game, the TapTap Android edition, the Google Play Android edition (these two Android editions use the package name com.xueyue.qianghua), and the Android edition (package name com.xueyue.qianghua.itch) and browser (HTML5) edition published on itch.io. The game is developed and operated by the independent game studio Blood Moon Studio (血月的工作室, "we", "us"). This policy explains what information the game handles, why, where it is stored, and which third-party SDKs and platform features it uses.</p>
+    <p>The Google Play edition and the itch.io Android edition include rewarded video ads, shown only when you tap "Watch Video" to claim extra daily materials. The WeChat mini game, the TapTap edition and the itch.io browser edition have no ads. The game has no purchases. Apart from a username you choose in the itch.io editions, it does not ask for your name, phone number or email address, and it does not obtain your platform nickname, avatar, precise location, contacts or friend list.</p>
 
     <h2>1. Consent first</h2>
-    <p>The first time you tap "Start", the game shows a privacy policy consent dialog. Until you tap "Agree", the game does not sign you in, does not initialize any third-party SDK (the TapTap edition initializes no TapSDK component, including its data analytics module and ThemisLite; the Google Play edition does not initialize Play Games Services and does not sign you in automatically), does not call WeChat sign-in, and does not send any account or game data to our servers. If you do not agree, you cannot start the game.</p>
+    <p>The first time you tap "Start", the game shows a privacy policy consent dialog. Until you tap "Agree", the game does not sign you in, does not initialize any third-party SDK (the TapTap edition initializes no TapSDK component, including its data analytics module and ThemisLite; the Google Play edition does not initialize Play Games Services and does not sign you in automatically; the Google Play edition and the itch.io Android edition initialize no advertising SDK, including the Google Mobile Ads SDK, UMP and Unity Ads), does not call WeChat sign-in, and does not send any account or game data to our servers. If you do not agree, you cannot start the game.</p>
 
     <h2>2. Sign-in and information stored on our servers</h2>
     <p>Enhancement results, leaderboards and daily resources are calculated and stored on our servers. Sign-in works differently on each channel:</p>
@@ -150,24 +174,25 @@
       <li>WeChat mini game: the game calls WeChat <code>wx.login</code> to get a one-time code, and our server exchanges it with WeChat for your openid in this game. The session key and other values WeChat returns are not stored.</li>
       <li>TapTap edition: you authorize through the TapTap login SDK, and our server uses the access token to ask TapTap for your openid in this game. The nickname, avatar and unionid TapTap returns are not stored.</li>
       <li>Google Play edition: Play Games Services provides a one-time server authorization code, and our server exchanges it with Google for your Play Games player ID (playerId). The gamer name, avatar and other values Google returns are not stored; the access token is used only for that sign-in and is not stored.</li>
+      <li>itch.io editions (Android and browser): there is no platform account. On first launch the game generates a random device identifier and stores it on your device (in the app's private storage on Android, in browser local storage in the browser edition), and asks you to enter a username of 2–16 characters (letters, digits, spaces and _ - .), which is shown on leaderboards. The game then signs in with that identifier. The identifier is created by the game at random and is not a hardware identifier or advertising identifier. If you uninstall the game or clear the app data or browser storage, a new identifier and a new account are created, and the old account cannot be recovered.</li>
       <li>During testing, if sign-in for a channel is not yet available, the game may fall back to a test sign-in that uses a random test identifier generated on your device. This identifier is created by the game at random and is not a hardware identifier. Test sign-in will be turned off before the official launch.</li>
     </ul>
     <p>Our servers store:</p>
     <ul>
-      <li>Account: the platform account identifier above (openid or playerId, or the random test identifier during testing), an internal player number, an anonymous display name generated at random by the system (such as "Name#1234"), the channel you first signed in from (WeChat / TapTap / Google Play / Test) and the creation time.</li>
+      <li>Account: the platform account identifier above (openid, playerId or the itch.io random device identifier, or the random test identifier during testing), an internal player number, a display name (an anonymous name generated at random by the system, such as "Name#1234"; in the itch.io editions, the username you entered), the channel you first signed in from (WeChat / TapTap / Google Play / itch.io / Test) and the creation time.</li>
       <li>Game records: daily resource claims (source and amount), resource balance and spending; for each enhancement, the slot, level change, result, cost, server-generated random numbers and time; current levels and scores of each slot, daily final score and rank, and your best results.</li>
       <li>Request records: the ID of each claim and enhancement request and the server's response, so that a network retry cannot claim or enhance twice.</li>
       <li>Server logs: access logs may contain your IP address, request time, requested address and client identifier (User-Agent); application logs may contain your internal player number and enhancement results. Logs are used only for troubleshooting and abuse prevention. The server also uses IP addresses briefly in memory to limit request rates.</li>
     </ul>
 
     <h2>3. Leaderboards and sharing</h2>
-    <p>Leaderboards show other players your anonymous display name, rank, score and channel (WeChat / TapTap / Google Play). There are two separate servers: the WeChat mini game and the TapTap edition share the mainland China server, and the Google Play edition uses the overseas server.</p>
+    <p>Leaderboards show other players your display name (the anonymous name, or your username in the itch.io editions), rank, score and channel (WeChat / TapTap / Google Play / itch.io). There are two separate servers: the WeChat mini game and the TapTap edition share the mainland China server, and the Google Play and itch.io editions use the overseas server.</p>
     <p>The game offers sharing, such as "Share today's result": the Android editions open the system share sheet and the WeChat mini game opens the WeChat share panel. The shared content is generated by the game, and you choose the recipient in the system or in WeChat. The game does not learn who you share with and does not read your contacts or friend list.</p>
 
     <h2>4. Information stored on your device</h2>
-    <p>The game keeps in local storage: settings (master volume, music and sound on/off and volume, quick mode, language), your privacy consent status, which daily results and end-of-day notices you have already seen, the date you ticked "Don't remind me again today" on the demotion warning, and the random test identifier that may be created during testing. The game token received after sign-in is kept only in memory. The TapTap SDK and Play Games Services keep their own sign-in state on the device. System backup is turned off for the Android editions, so this data is not uploaded with system backups.</p>
-    <p>You can delete this data by clearing the game's storage in system settings or uninstalling the game (for the WeChat mini game, delete it in WeChat).</p>
-    <p>The Android editions declare only three normal permissions, granted at install without a prompt: internet access (INTERNET), network state (ACCESS_NETWORK_STATE, to tell whether you are online) and vibration (VIBRATE, for button and enhancement feedback). The game does not request location, contacts, camera, microphone, phone, photos or files.</p>
+    <p>The game keeps in local storage: settings (master volume, music and sound on/off and volume, quick mode, language), your privacy consent status, which daily results and end-of-day notices you have already seen, the date you ticked "Don't remind me again today" on the demotion warning, the random device identifier of the itch.io editions, and the random test identifier that may be created during testing. The game token received after sign-in is kept only in memory. The TapTap SDK and Play Games Services keep their own sign-in state on the device; the advertising SDKs and UMP keep your ad consent choices and similar information on the device under their own mechanisms. System backup is turned off for the Android editions, so this data is not uploaded with system backups.</p>
+    <p>You can delete this data by clearing the game's storage in system settings or uninstalling the game (for the WeChat mini game, delete it in WeChat; for the itch.io browser edition, clear the site's data in your browser).</p>
+    <p>The Android editions declare three normal permissions, granted at install without a prompt: internet access (INTERNET), network state (ACCESS_NETWORK_STATE, to tell whether you are online) and vibration (VIBRATE, for button and enhancement feedback). The Google Play edition and the itch.io Android edition also include normal permissions declared by the advertising SDKs and their dependency libraries, likewise granted at install without a prompt: advertising ID (com.google.android.gms.permission.AD_ID), Android ad services (ACCESS_ADSERVICES_AD_ID, ACCESS_ADSERVICES_ATTRIBUTION, ACCESS_ADSERVICES_TOPICS), WAKE_LOCK and FOREGROUND_SERVICE. The game does not request location, contacts, camera, microphone, phone, photos or files.</p>
 
     <h2>5. Third-party SDKs and platform features</h2>
     <p>The SDKs and platform features below process information under their providers' own privacy policies. Device and network information collected by an SDK is sent directly to its provider; we do not receive it.</p>
@@ -213,18 +238,41 @@
       <li>Privacy policy: <a href="https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&amp;t=weixin_agreement&amp;s=privacy">WeChat Privacy Protection Guidelines</a></li>
     </ul>
 
+    <h3>4. Google Mobile Ads SDK (AdMob) and User Messaging Platform (UMP)</h3>
+    <ul>
+      <li>SDK and version: Google Mobile Ads SDK <code>com.google.android.gms:play-services-ads</code> 25.5.0; Google User Messaging Platform <code>com.google.android.ump:user-messaging-platform</code> 4.0.0; Unity Ads adapter for AdMob mediation <code>com.google.ads.mediation:unity</code> 4.20.1.0.</li>
+      <li>Provider: Google LLC</li>
+      <li>Channels: Google Play edition, itch.io Android edition</li>
+      <li>Purpose: loading and showing a rewarded video ad when you tap "Watch Video", and granting the extra daily materials after you watch it; requesting ads from Unity Ads through AdMob mediation; UMP shows Google's consent message in regions where it is required and stores your ad consent choices. According to Google, this information is used for ad delivery, measurement, frequency capping, fraud prevention and, where you consent, personalised ads.</li>
+      <li>Personal information collected: according to Google, this may include the device advertising identifier (Android Advertising ID), IP address and approximate location derived from it, device and app information, ad interaction data, and diagnostic and performance data. See Google's disclosures for details.</li>
+      <li>How it is collected: by the SDK itself. UMP and the Google Mobile Ads SDK are initialized only after you tap "Agree" to this policy; before that they do not run or collect anything.</li>
+      <li>Privacy policies: <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services https://policies.google.com/technologies/partner-sites</a>; <a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+    </ul>
+
+    <h3>5. Unity Ads</h3>
+    <ul>
+      <li>SDK and version: Unity Ads SDK <code>com.unity3d.ads:unity-ads</code> 4.20.1</li>
+      <li>Provider: Unity Technologies</li>
+      <li>Channels: Google Play edition, itch.io Android edition</li>
+      <li>Purpose: a source of rewarded video ads, both through AdMob mediation and through direct requests from the game. According to Unity, this information is used for ad delivery, measurement, frequency capping, fraud prevention and, where you consent, personalised ads.</li>
+      <li>Personal information collected: according to Unity, this may include the device advertising identifier (Android Advertising ID), IP address and approximate location derived from it, device and app information, ad interaction data, and diagnostic and performance data. See Unity's privacy policy for details.</li>
+      <li>How it is collected: by the SDK itself. Unity Ads is initialized only after you tap "Agree" to this policy; the game passes the choices you make in Google's consent message (including an opt-out of sale or sharing in applicable US states) to Unity Ads.</li>
+      <li>Privacy policy: <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Unity Game Player and App User Privacy Policy https://unity.com/legal/game-player-and-app-user-privacy-policy</a></li>
+    </ul>
+
     <p>The Android editions also include the AndroidX WebKit support library 1.14.0 (<code>androidx.webkit:webkit</code>, an open-source component from Google), used only to display the game inside the app. It does not collect personal information.</p>
 
     <h2>6. Minors</h2>
     <p>We do not knowingly collect personal information from minors. Children under 14 should use the game only after a parent or guardian has read and agreed to this policy.</p>
 
     <h2>7. Sharing, storage location and retention</h2>
-    <p>We do not sell or share your personal information, and we do not use it for advertising. Apart from verifying sign-in with WeChat, TapTap and Google as described above, and showing your anonymous name and results to other players on leaderboards, we do not provide your information to third parties.</p>
-    <p>Server locations: data for the WeChat mini game and the TapTap edition is stored on Tencent Cloud servers in Shanghai, China; data for the Google Play edition is stored on Google Cloud servers in Taiwan (asia-east1). The two servers' databases are separate, and the databases and caches run only on the servers' internal networks with no public access.</p>
+    <p>We do not sell the information about you stored on our servers, and we do not use it for advertising. Apart from verifying sign-in with WeChat, TapTap and Google as described above, and showing your display name and results to other players on leaderboards, we do not provide your information to third parties. The advertising SDKs in the Google Play edition and the itch.io Android edition collect information and send it directly to Google and Unity as described in section 5; we do not receive it.</p>
+    <p>Server locations: data for the WeChat mini game and the TapTap edition is stored on Tencent Cloud servers in Shanghai, China; data for the Google Play and itch.io editions is stored on Google Cloud servers in Taiwan (asia-east1) (the overseas server). The two servers' databases are separate, and the databases and caches run only on the servers' internal networks with no public access.</p>
     <p>Retention: account and game records are kept while the game is operated, for leaderboards, best results and preventing duplicate claims, and you can ask us to delete them at any time. Server logs are overwritten in rotation as they reach their size limit and are not kept long term. The database is backed up daily and backups are kept for 7 days. Data on your device is kept until you delete it.</p>
 
     <h2>8. Your choices and rights</h2>
-    <p>You can decline this policy (you then cannot start the game), and you can clear the game's data in system settings or uninstall the game. You can ask us, at the email address below, to access, correct or delete the information on our servers related to your account. Please include your channel and the anonymous name shown in the game; we will act after verification, usually within 15 working days. Deleting your account also removes your leaderboard entries and best results; deleted data leaves our backups within 7 days as they rotate. For information processed by third-party SDKs and platforms, you can exercise your rights with the provider under its privacy policy.</p>
+    <p>You can decline this policy (you then cannot start the game), and you can clear the game's data in system settings or uninstall the game. You can ask us, at the email address below, to access, correct or delete the information on our servers related to your account. Please include your channel and the anonymous name shown in the game (your username in the itch.io editions); we will act after verification, usually within 15 working days. Deleting your account also removes your leaderboard entries and best results; deleted data leaves our backups within 7 days as they rotate. For information processed by third-party SDKs and platforms, you can exercise your rights with the provider under its privacy policy.</p>
+    <p>Ad choices (Google Play edition and itch.io Android edition): ads play only when you tap "Watch Video", and you can play normally without watching ads. In the EEA, the UK and Switzerland, the game shows Google's consent message (UMP), where you choose whether to consent to ad-related data processing and personalised ads. In applicable US states, you can opt out of the sale or sharing of your personal information. Where required, an "Ad Privacy Options" entry appears in Settings so you can change your choices at any time. You can also reset or delete your advertising ID and limit ad personalisation in Android settings.</p>
 
     <h2>9. Changes to this policy</h2>
     <p>If the way the game handles information changes, we will update this policy and the "Last updated" date above. When we add a new SDK or collect new types of information, the game will ask for your consent again.</p>
