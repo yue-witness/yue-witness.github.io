@@ -38,13 +38,13 @@
 
   <div class="card" id="zh">
     <h1>《每日强化挑战》隐私政策</h1>
-    <p class="meta">更新日期：2026 年 11 月 8 日（第二次更新：TapTap 版排行榜显示 TapTap 昵称）</p>
+    <p class="meta">更新日期：2026 年 11 月 8 日（第三次更新：TapTap 版广告改用 TapADN）</p>
 
     <p>本政策适用于游戏《每日强化挑战》（英文名 Forge Simulator: Epic Gear，以下称“本游戏”）的以下渠道：微信小游戏、TapTap 安卓版、Google Play 安卓版（这两个安卓版的包名均为 com.xueyue.qianghua），以及在 itch.io 发布的安卓版（包名 com.xueyue.qianghua.itch）与浏览器版（HTML5；同一浏览器版也可在 <a href="https://yue-witness.github.io/forge/play/">https://yue-witness.github.io/forge/play/</a> 游玩，以下统称“浏览器版”）。本游戏由独立游戏工作室“血月的工作室”（Blood Moon Studio，以下称“我们”）开发运营。本政策说明本游戏处理哪些信息、为什么处理、保存在哪里，以及接入的第三方 SDK 与平台能力。</p>
     <p>Google Play 版、TapTap 版、itch.io 安卓版与浏览器版包含激励视频广告，只在你主动点击“观看视频”领取额外的每日材料时播放；微信小游戏没有广告。本游戏没有付费功能。除 itch.io 版需要你自取一个用户名外，本游戏不要求你填写姓名、手机号或邮箱；除 TapTap 版在排行榜显示你的 TapTap 昵称外，也不获取你的平台昵称，并且不获取头像、精确位置、通讯录或好友关系。</p>
 
     <h2>一、同意在先</h2>
-    <p>首次点击“开始”时，本游戏会先弹出隐私政策同意框。在你点击“同意”之前，本游戏不会登录，不会初始化任何第三方 SDK（TapTap 版不初始化 TapSDK 的任何组件，包括其数据分析模块与 ThemisLite；Google Play 版不初始化 Play 游戏服务，也不会自动登录；Google Play 版与 itch.io 安卓版不初始化任何广告 SDK，包括 Google 移动广告 SDK、UMP 与 Unity Ads；TapTap 版不初始化 DCloud uni-AD 及其接入的广告平台 SDK），不会调用微信登录，也不会向我们的服务器发送任何账号或游戏数据。不同意则无法开始游戏。</p>
+    <p>首次点击“开始”时，本游戏会先弹出隐私政策同意框。在你点击“同意”之前，本游戏不会登录，不会初始化任何第三方 SDK（TapTap 版不初始化 TapSDK 的任何组件，包括其数据分析模块与 ThemisLite；Google Play 版不初始化 Play 游戏服务，也不会自动登录；Google Play 版与 itch.io 安卓版不初始化任何广告 SDK，包括 Google 移动广告 SDK、UMP 与 Unity Ads；TapTap 版不初始化 TapADN 广告 SDK），不会调用微信登录，也不会向我们的服务器发送任何账号或游戏数据。不同意则无法开始游戏。</p>
     <p>浏览器版同样遵循以上顺序：Google 广告脚本（见第五部分第 6 项）在你同意本政策后才会加载，广告只在你点击“观看视频”时播放。</p>
 
     <h2>二、登录与我们服务器保存的信息</h2>
@@ -150,15 +150,15 @@
       <li>隐私政策：<a href="https://policies.google.com/technologies/partner-sites">Google 如何使用来自使用其服务的网站或应用的信息 https://policies.google.com/technologies/partner-sites</a>；<a href="https://policies.google.com/privacy">Google 隐私政策</a></li>
     </ul>
 
-    <h3>7. DCloud uni-AD 原生广告 SDK 及其接入的广告平台（TapTap 版）</h3>
+    <h3>7. TapADN 广告 SDK（TapTap 版）</h3>
     <ul>
-      <li>SDK 名称与版本：uni-AD 原生广告 SDK 5.5.2.0606（基础模块 <code>uniad-native-release</code>）；经其聚合的广告平台：章鱼广告（Octopus SDK 2.5.10.5）、泛连（Funlink SDK 2.8.8，uni-AD 适配器 2.8.4）、华夏乐游（优推广告 SDK <code>adalliance_adn_sdk</code> 3.14.9）。</li>
-      <li>提供方：数字天堂（北京）网络技术有限公司（DCloud）；章鱼、泛连、华夏乐游分别由各自的广告平台运营方提供。</li>
+      <li>SDK 名称与版本：TapADN（Dirichlet）Android 广告 SDK 5.3.2.0（包名 <code>com.tapsdk.tapad</code>，依赖开源网络库 OkHttp 3.10.0）。</li>
+      <li>提供方：上海艾得蒽数字科技有限公司及其关联方（TapTap 广告联盟）。</li>
       <li>适用渠道：TapTap 版</li>
-      <li>使用目的：在你点击“观看视频”时加载并播放激励视频广告，看完后发放额外的每日材料；暂时没有可播放的广告时，本游戏会提示并直接发放该次材料。据各提供方说明，相关信息用于广告投放、监测归因、统计分析、反作弊与保障 SDK 稳定运行。</li>
-      <li>收集的个人信息：设备基础信息（品牌、型号、系统版本、屏幕分辨率与密度、语言、时区）、网络类型、应用包名与版本号、广告展示与点击等交互信息、崩溃与性能数据；具体以各 SDK 隐私政策为准。本游戏已通过 uni-AD 的隐私配置关闭全部可选采集项：不读取电话状态、存储、定位、Wi-Fi 信息、已安装 / 运行中应用列表、MAC 地址、Android ID、OAID、IP 地址、传感器、运营商与录音，也不打包 OAID 库；TapTap 版在安装清单中移除了这些 SDK 申请的定位、电话、存储、Wi-Fi、应用列表与安装应用权限。</li>
-      <li>收集方式：SDK 自行采集并直接发送给提供方，我们收不到。uni-AD 及上述广告平台 SDK 只在你点击“同意”本政策之后才初始化。</li>
-      <li>隐私政策：<a href="https://dcloud.io/license/uni-ad.html">uni-AD 隐私政策 https://dcloud.io/license/uni-ad.html</a>；<a href="https://doc.adintl.cn/#/zh-cn/guide/UsePrivacy">章鱼广告 SDK 隐私政策</a>；<a href="https://www.adfunlink.com/doc/privacy.html">泛连 SDK 隐私政策</a>；<a href="https://lemon.gameley.com/flowdocs/%E4%BC%98%E6%8E%A8%E5%B9%BF%E5%91%8A%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E9%9A%90%E7%A7%81%E5%8D%8F%E8%AE%AE/%E4%BC%98%E6%8E%A8%E5%B9%BF%E5%91%8A%E5%B9%B3%E5%8F%B0SDK%E9%9A%90%E7%A7%81%E6%94%BF%E7%AD%96.html">华夏乐游（优推广告平台）SDK 隐私政策</a></li>
+      <li>使用目的：在你点击“观看视频”时加载并播放激励视频广告，看完后发放额外的每日材料；暂时没有可播放的广告时，本游戏会提示并直接发放该次材料。据提供方说明，相关信息用于广告投放、监测归因、统计分析、反作弊与保障 SDK 稳定运行。</li>
+      <li>收集的个人信息：设备基础信息（品牌、型号、系统版本、屏幕分辨率、语言、时区）、网络类型、IP 地址、应用包名与版本号、设备 DRM 标识（用于反作弊与去重）、广告展示与点击等交互信息；具体以 TapADN 隐私政策为准。本游戏已通过 SDK 的隐私配置关闭全部可选采集项：不读取位置、电话状态与设备序列号、Wi-Fi 信息（含 BSSID / SSID）、MAC 地址、传感器、外部存储、已安装应用列表、Android ID 与 OAID，并关闭摇一摇互动；TapTap 版在安装清单中移除了 SDK 申请的安装应用、查询全部应用与 OAID 相关权限，只保留网络、网络状态与振动权限。</li>
+      <li>收集方式：SDK 自行采集并直接发送给提供方，我们收不到。TapADN SDK 只在你点击“同意”本政策之后才初始化。</li>
+      <li>隐私政策：<a href="https://ssp.dirichlet.cn/docs/agreement/">TapADN SDK 隐私政策 https://ssp.dirichlet.cn/docs/agreement/</a>；<a href="https://ssp.dirichlet.cn/docs/compliance/">TapADN 合规说明</a></li>
     </ul>
 
     <p>此外，安卓版包含 AndroidX WebKit 支持库 1.14.0（<code>androidx.webkit:webkit</code>，Google 提供的开源组件），只用于在应用内显示游戏页面，不收集个人信息。</p>
@@ -167,7 +167,7 @@
     <p>我们不会主动收集未成年人的个人信息。未满 14 周岁的未成年人应在监护人阅读并同意本政策后使用本游戏。</p>
 
     <h2>七、共享、存储地点与保存期限</h2>
-    <p>我们不出售我们服务器上保存的你的信息，也不将其用于广告。除上文所述向微信、TapTap、Google 核验登录，以及排行榜向其他玩家公开显示显示名与成绩外，我们不向第三方提供你的信息。Google Play 版与 itch.io 安卓版中的广告 SDK 按第五部分所述直接收集信息并发送给 Google 与 Unity，TapTap 版中的 uni-AD 及其接入的广告平台 SDK 直接收集信息并发送给 DCloud 与相应广告平台，浏览器版中的 Google 广告脚本直接收集信息并发送给 Google，我们收不到这些信息。</p>
+    <p>我们不出售我们服务器上保存的你的信息，也不将其用于广告。除上文所述向微信、TapTap、Google 核验登录，以及排行榜向其他玩家公开显示显示名与成绩外，我们不向第三方提供你的信息。Google Play 版与 itch.io 安卓版中的广告 SDK 按第五部分所述直接收集信息并发送给 Google 与 Unity，TapTap 版中的 TapADN 广告 SDK 直接收集信息并发送给其提供方，浏览器版中的 Google 广告脚本直接收集信息并发送给 Google，我们收不到这些信息。</p>
     <p>服务器存储地点：微信小游戏与 TapTap 版的数据保存在腾讯云（中国上海）的服务器；Google Play 版与 itch.io 版的数据保存在 Google Cloud（中国台湾，asia-east1）的服务器（海外服）。两服数据库互不相通，数据库与缓存只在服务器内部网络运行，不对外开放。</p>
     <p>保存期限：账号与游戏记录在本游戏运营期间保存，用于排行榜、历史最佳与防止重复领取，你可以随时要求删除；服务器日志按容量循环覆盖，不长期保存；数据库每日备份，备份保留 7 天。设备上的数据保存至你删除为止。</p>
 
@@ -186,13 +186,13 @@
 
   <div class="card" id="en" lang="en">
     <h1>Forge Simulator: Epic Gear Privacy Policy</h1>
-    <p class="meta">Last updated: 8 November 2026 (second update: the TapTap edition shows your TapTap nickname on leaderboards)</p>
+    <p class="meta">Last updated: 8 November 2026 (third update: the TapTap edition now uses TapADN for ads)</p>
 
     <p>This policy applies to the game "Forge Simulator: Epic Gear" (Chinese title 每日强化挑战, "the game") on these channels: the WeChat mini game, the TapTap Android edition, the Google Play Android edition (these two Android editions use the package name com.xueyue.qianghua), and the Android edition (package name com.xueyue.qianghua.itch) and browser (HTML5) edition published on itch.io (the same browser edition can also be played at <a href="https://yue-witness.github.io/forge/play/">https://yue-witness.github.io/forge/play/</a>; together "the browser edition"). The game is developed and operated by the independent game studio Blood Moon Studio (血月的工作室, "we", "us"). This policy explains what information the game handles, why, where it is stored, and which third-party SDKs and platform features it uses.</p>
     <p>The Google Play edition, the TapTap edition, the itch.io Android edition and the browser edition include rewarded video ads, shown only when you tap "Watch Video" to claim extra daily materials. The WeChat mini game has no ads. The game has no purchases. Apart from a username you choose in the itch.io editions, it does not ask for your name, phone number or email address. Apart from showing your TapTap nickname on leaderboards in the TapTap edition, it does not obtain your platform nickname, and it does not obtain your avatar, precise location, contacts or friend list.</p>
 
     <h2>1. Consent first</h2>
-    <p>The first time you tap "Start", the game shows a privacy policy consent dialog. Until you tap "Agree", the game does not sign you in, does not initialize any third-party SDK (the TapTap edition initializes no TapSDK component, including its data analytics module and ThemisLite; the Google Play edition does not initialize Play Games Services and does not sign you in automatically; the Google Play edition and the itch.io Android edition initialize no advertising SDK, including the Google Mobile Ads SDK, UMP and Unity Ads; the TapTap edition initializes neither DCloud uni-AD nor the ad network SDKs it mediates), does not call WeChat sign-in, and does not send any account or game data to our servers. If you do not agree, you cannot start the game.</p>
+    <p>The first time you tap "Start", the game shows a privacy policy consent dialog. Until you tap "Agree", the game does not sign you in, does not initialize any third-party SDK (the TapTap edition initializes no TapSDK component, including its data analytics module and ThemisLite; the Google Play edition does not initialize Play Games Services and does not sign you in automatically; the Google Play edition and the itch.io Android edition initialize no advertising SDK, including the Google Mobile Ads SDK, UMP and Unity Ads; the TapTap edition does not initialize the TapADN ad SDK), does not call WeChat sign-in, and does not send any account or game data to our servers. If you do not agree, you cannot start the game.</p>
     <p>The browser edition follows the same order: Google's ad script (see item 6 of section 5) loads only after you accept this policy, and ads are shown only when you tap "Watch Video".</p>
 
     <h2>2. Sign-in and information stored on our servers</h2>
@@ -298,15 +298,15 @@
       <li>Privacy policies: <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services https://policies.google.com/technologies/partner-sites</a>; <a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
     </ul>
 
-    <h3>7. DCloud uni-AD native ad SDK and the ad networks it mediates (TapTap edition)</h3>
+    <h3>7. TapADN ad SDK (TapTap edition)</h3>
     <ul>
-      <li>SDK and version: uni-AD native ad SDK 5.5.2.0606 (base module <code>uniad-native-release</code>); ad networks mediated through it: Octopus (Octopus SDK 2.5.10.5), Funlink (Funlink SDK 2.8.8, uni-AD adapter 2.8.4) and Huaxia Leyou (Youtui ad SDK <code>adalliance_adn_sdk</code> 3.14.9).</li>
-      <li>Provider: Digital Heaven (Beijing) Network Technology Co., Ltd. (DCloud); Octopus, Funlink and Huaxia Leyou are provided by their respective ad network operators.</li>
+      <li>SDK and version: TapADN (Dirichlet) Android ad SDK 5.3.2.0 (package <code>com.tapsdk.tapad</code>, with the open-source networking library OkHttp 3.10.0).</li>
+      <li>Provider: Shanghai Aideen Digital Technology Co., Ltd. and its affiliates (TapTap Ad Network).</li>
       <li>Channel: TapTap edition</li>
-      <li>Purpose: loading and showing a rewarded video ad when you tap "Watch Video", and granting the extra daily materials after you watch it; when no ad is available, the game tells you and grants that claim directly. According to the providers, this information is used for ad delivery, measurement and attribution, statistics, fraud prevention and keeping the SDKs stable.</li>
-      <li>Personal information collected: basic device information (brand, model, OS version, screen resolution and density, language, time zone), network type, app package name and version, ad impression and click interactions, and crash and performance data; see each SDK's privacy policy for details. The game turns off every optional collection item through uni-AD's privacy configuration: no phone state, storage, location, Wi-Fi information, installed or running app lists, MAC address, Android ID, OAID, IP address, sensors, carrier or audio recording, and no OAID library is bundled. The TapTap edition also removes the location, phone, storage, Wi-Fi, app-list and install-packages permissions these SDKs request from its manifest.</li>
-      <li>How it is collected: by the SDKs themselves, sent directly to the providers; we do not receive it. uni-AD and these ad network SDKs are initialized only after you tap "Agree" to this policy.</li>
-      <li>Privacy policies: <a href="https://dcloud.io/license/uni-ad.html">uni-AD privacy policy https://dcloud.io/license/uni-ad.html</a>; <a href="https://doc.adintl.cn/#/zh-cn/guide/UsePrivacy">Octopus SDK privacy policy</a>; <a href="https://www.adfunlink.com/doc/privacy.html">Funlink SDK privacy policy</a>; <a href="https://lemon.gameley.com/flowdocs/%E4%BC%98%E6%8E%A8%E5%B9%BF%E5%91%8A%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E9%9A%90%E7%A7%81%E5%8D%8F%E8%AE%AE/%E4%BC%98%E6%8E%A8%E5%B9%BF%E5%91%8A%E5%B9%B3%E5%8F%B0SDK%E9%9A%90%E7%A7%81%E6%94%BF%E7%AD%96.html">Huaxia Leyou (Youtui) SDK privacy policy</a></li>
+      <li>Purpose: loading and showing a rewarded video ad when you tap "Watch Video", and granting the extra daily materials after you watch it; when no ad is available, the game tells you and grants that claim directly. According to the provider, this information is used for ad delivery, measurement and attribution, statistics, fraud prevention and keeping the SDK stable.</li>
+      <li>Personal information collected: basic device information (brand, model, OS version, screen resolution, language, time zone), network type, IP address, app package name and version, a device DRM identifier (for fraud prevention and de-duplication), and ad impression and click interactions; see the TapADN privacy policy for details. The game turns off every optional collection item through the SDK's privacy configuration: no location, phone state or device serial number, Wi-Fi information (including BSSID / SSID), MAC address, sensors, external storage, installed app list, Android ID or OAID, and shake interactions are disabled. The TapTap edition also removes the install-packages, query-all-packages and OAID-related permissions the SDK requests, keeping only network, network-state and vibration permissions.</li>
+      <li>How it is collected: by the SDK itself, sent directly to the provider; we do not receive it. The TapADN SDK is initialized only after you tap "Agree" to this policy.</li>
+      <li>Privacy policies: <a href="https://ssp.dirichlet.cn/docs/agreement/">TapADN SDK privacy policy https://ssp.dirichlet.cn/docs/agreement/</a>; <a href="https://ssp.dirichlet.cn/docs/compliance/">TapADN compliance notes</a></li>
     </ul>
 
     <p>The Android editions also include the AndroidX WebKit support library 1.14.0 (<code>androidx.webkit:webkit</code>, an open-source component from Google), used only to display the game inside the app. It does not collect personal information.</p>
@@ -315,7 +315,7 @@
     <p>We do not knowingly collect personal information from minors. Children under 14 should use the game only after a parent or guardian has read and agreed to this policy.</p>
 
     <h2>7. Sharing, storage location and retention</h2>
-    <p>We do not sell the information about you stored on our servers, and we do not use it for advertising. Apart from verifying sign-in with WeChat, TapTap and Google as described above, and showing your display name and results to other players on leaderboards, we do not provide your information to third parties. The advertising SDKs in the Google Play edition and the itch.io Android edition collect information and send it directly to Google and Unity as described in section 5, the uni-AD and ad network SDKs in the TapTap edition send it directly to DCloud and the relevant ad networks, and Google's ad script in the browser edition collects information and sends it directly to Google; we do not receive it.</p>
+    <p>We do not sell the information about you stored on our servers, and we do not use it for advertising. Apart from verifying sign-in with WeChat, TapTap and Google as described above, and showing your display name and results to other players on leaderboards, we do not provide your information to third parties. The advertising SDKs in the Google Play edition and the itch.io Android edition collect information and send it directly to Google and Unity as described in section 5, the TapADN ad SDK in the TapTap edition sends it directly to its provider, and Google's ad script in the browser edition collects information and sends it directly to Google; we do not receive it.</p>
     <p>Server locations: data for the WeChat mini game and the TapTap edition is stored on Tencent Cloud servers in Shanghai, China; data for the Google Play and itch.io editions is stored on Google Cloud servers in Taiwan (asia-east1) (the overseas server). The two servers' databases are separate, and the databases and caches run only on the servers' internal networks with no public access.</p>
     <p>Retention: account and game records are kept while the game is operated, for leaderboards, best results and preventing duplicate claims, and you can ask us to delete them at any time. Server logs are overwritten in rotation as they reach their size limit and are not kept long term. The database is backed up daily and backups are kept for 7 days. Data on your device is kept until you delete it.</p>
 
