@@ -1,6 +1,9 @@
 # app-ads.txt for By Eye (com.byeye.game) — developer site https://yue-witness.github.io
 # Google AdMob
 google.com, pub-6465473285974998, DIRECT, f08c47fec0942fa0
+# Google Open Bidding partners (AdMob mediation, CR-AD-13)
+# Magnite DV+
+rubiconproject.com, 22884, DIRECT, 0bfd66d529a55807
 # Unity Ads (AdMob mediation bidder), organization 16768421101684
 unity.com, 156133680, DIRECT, 96cabb5fbdde37a7
 adwmg.com, 159512, RESELLER, c9688a22012618e7
