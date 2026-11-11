@@ -30,7 +30,7 @@
   <nav><a href="../../../">← 血月的工作室</a></nav>
   <div class="card">
     <h1>《目测》隐私政策（TapTap 版）</h1>
-    <p class="meta">更新日期：2026 年 11 月 9 日</p>
+    <p class="meta">更新日期：2026 年 11 月 11 日</p>
 
     <p>本政策适用于在 TapTap 发行的安卓游戏《目测》（包名 com.byeye.trial，以下称“本游戏”），由个人开发者潘越（发行署名“血月的工作室”，以下称“我们”）开发和运营。本政策说明本游戏处理哪些信息、为什么处理，以及接入的第三方 SDK。</p>
 
@@ -51,15 +51,44 @@
       <li>隐私政策：<a href="https://www.taptap.cn/doc/privacy-policy/">https://www.taptap.cn/doc/privacy-policy/</a></li>
     </ul>
 
-    <h3>2. TapADN 广告 SDK（Dirichlet）</h3>
+    <h3>2. uni-AD 原生广告 SDK</h3>
     <ul>
-      <li>提供方：上海艾得蒽数字科技有限公司</li>
-      <li>用途：在关卡结算时展示插屏广告，用于广告投放、监测归因、统计分析与反作弊。</li>
-      <li>处理的信息：设备基础信息（品牌、型号、系统版本、屏幕密度与分辨率、语言、时区、CPU 信息、可用存储空间）、网络状态与信号强度、IP 地址、应用包名 / 版本号 / 前后台状态与运行中的进程信息、广告展示与点击等交互信息、崩溃与性能数据。</li>
-      <li>隐私政策：<a href="https://ssp.dirichlet.cn/docs/agreement/">https://ssp.dirichlet.cn/docs/agreement/</a></li>
+      <li>提供方：数字天堂（北京）网络技术有限公司（DCloud）</li>
+      <li>用途：在关卡结算时展示插屏广告，聚合下列第三方广告平台。</li>
+      <li>处理的信息：设备基础信息（品牌、型号、系统版本、分辨率、屏幕密度、语言、时区、系统时间）、网络类型与 IP 地址、广告展示与点击等交互信息。</li>
+      <li>隐私政策：<a href="https://dcloud.io/license/uni-ad.html">https://dcloud.io/license/uni-ad.html</a></li>
     </ul>
 
-    <p>我们在初始化广告 SDK 时关闭了可选信息的获取：位置、电话状态（含设备序列号）、Wi-Fi 信息（含 SSID / BSSID）、MAC 地址、传感器、外部存储、已安装应用列表、Android ID 与 OAID，并关闭了摇一摇广告交互。广告 SDK 仍可能依据其隐私政策处理其列为必要的信息；这些信息由提供方直接处理，我们不会收到。</p>
+    <h3>3. 章鱼广告（Octopus SDK）</h3>
+    <ul>
+      <li>用途：广告投放、统计分析、反作弊，实现广告正常显示与交互。</li>
+      <li>处理的信息：设备基础信息、网络信息、应用信息、广告交互信息、崩溃与性能数据。</li>
+      <li>隐私政策：<a href="https://doc.adintl.cn/#/zh-cn/guide/UsePrivacy">https://doc.adintl.cn/#/zh-cn/guide/UsePrivacy</a></li>
+    </ul>
+
+    <h3>4. 泛连（Funlink SDK）</h3>
+    <ul>
+      <li>用途：广告投放与监测归因、反作弊、广告统计分析、提升 SDK 稳定性。</li>
+      <li>处理的信息：设备基础信息（品牌、型号、系统版本、屏幕密度与分辨率、语言、时区）、网络信息、广告交互信息。</li>
+      <li>隐私政策：<a href="https://www.adfunlink.com/doc/privacy.html">https://www.adfunlink.com/doc/privacy.html</a></li>
+    </ul>
+
+    <h3>5. 华夏乐游（优推广告 SDK）</h3>
+    <ul>
+      <li>用途：广告投放与反作弊、广告监测归因、保证网络服务稳定、减少应用崩溃。</li>
+      <li>处理的信息：设备基础信息、运营商与网络状态、IP 地址、应用包名与版本号、崩溃与性能数据、广告交互信息。</li>
+      <li>隐私政策：<a href="https://lemon.gameley.com/flowdocs/%E4%BC%98%E6%8E%A8%E5%B9%BF%E5%91%8A%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E9%9A%90%E7%A7%81%E5%8D%8F%E8%AE%AE/%E4%BC%98%E6%8E%A8%E5%B9%BF%E5%91%8A%E5%B9%B3%E5%8F%B0SDK%E9%9A%90%E7%A7%81%E6%94%BF%E7%AD%96.html">优推广告平台 SDK 隐私政策</a></li>
+    </ul>
+
+    <h3>6. 倍孜（BeiZi SDK）</h3>
+    <ul>
+      <li>提供方：上海倍孜网络技术有限公司</li>
+      <li>用途：广告投放策略、统计分析、反作弊、广告归因，实现广告正常显示与交互，减少应用崩溃。</li>
+      <li>处理的信息：设备基础信息（品牌、型号、时区、语言、系统版本、UserAgent、屏幕尺寸与方向及 DPI、系统更新时间、磁盘空间、内存、CPU）、网络类型与运营商、应用名称 / 版本 / 包名、广告交互信息、崩溃与性能数据。</li>
+      <li>隐私政策：<a href="https://sdkdoc.beizi.biz/#/zh-cn/guide/UsePrivacy">https://sdkdoc.beizi.biz/#/zh-cn/guide/UsePrivacy</a></li>
+    </ul>
+
+    <p>我们在初始化广告 SDK 时关闭了可选信息的获取：电话状态、存储、定位、Wi-Fi 状态、已安装与运行中的应用列表、MAC 地址、Android ID、OAID、IP 获取、传感器、运营商与录音。各广告平台仍可能依据其自身隐私政策处理其列为必要的信息；这些信息由各提供方直接处理，我们不会收到。</p>
 
     <h2>四、未成年人</h2>
     <p>我们不会主动收集未成年人的个人信息。未满 14 周岁的未成年人应在监护人阅读并同意本政策后使用本游戏。</p>
