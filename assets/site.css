@@ -205,7 +205,9 @@ h1, h2, h3 { line-height: 1.25; }
 .genres li { display: flex; flex-direction: column; gap: 6px; padding: 16px 18px; background: var(--surface); border: 2px solid var(--line); border-radius: 18px; box-shadow: 4px 4px 0 var(--shadow); }
 .genres b { font-size: 17px; color: var(--blood); }
 .genres span { font-size: 15px; line-height: 1.6; }
-.genres a { margin-top: auto; padding-top: 4px; font-weight: 800; font-size: 14px; text-decoration: none; }
+.nw { white-space: nowrap; }
+.genre-links { margin-top: auto; padding-top: 4px; display: flex; flex-direction: column; gap: 2px; }
+.genres a { font-weight: 800; font-size: 14px; text-decoration: none; }
 .genres a span { font-size: inherit; }
 
 /* ---------- Game page ---------- */
