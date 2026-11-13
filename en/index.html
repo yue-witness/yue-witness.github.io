@@ -2,247 +2,214 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="google-adsense-account" content="ca-pub-6465473285974998">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Blood Moon Studio</title>
-<meta name="description" content="Blood Moon Studio is an independent game studio making By Eye, Forge Simulator and Game Theory Simulator: Mirror.">
-<link rel="canonical" href="https://yue-witness.github.io/en/">
-<link rel="alternate" hreflang="zh-CN" href="https://yue-witness.github.io/">
-<link rel="alternate" hreflang="en" href="https://yue-witness.github.io/en/">
-<link rel="alternate" hreflang="x-default" href="https://yue-witness.github.io/">
-<link rel="icon" href="../assets/studio/favicon-48.png" type="image/png">
-<link rel="apple-touch-icon" href="../assets/studio/apple-touch-icon.png">
+<meta name="google-adsense-account" content="ca-pub-6465473285974998">
+<title>Blood Moon Studio · Solo indie game studio</title>
+<meta name="description" content="Blood Moon Studio is a solo indie game studio making light casual games, simulator games and narrative indie games: By Eye, Forge Simulator, Winter Potato Peeling Simulator and Game Theory Simulator: Mirror.">
+<link rel="canonical" href="https://bloodmoonstudio.org/en/">
+<link rel="alternate" hreflang="zh-CN" href="https://bloodmoonstudio.org/">
+<link rel="alternate" hreflang="en" href="https://bloodmoonstudio.org/en/">
+<link rel="alternate" hreflang="x-default" href="https://bloodmoonstudio.org/">
+<link rel="icon" href="/assets/studio/favicon-48.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/studio/apple-touch-icon.png">
 <meta name="theme-color" content="#B3122E">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Blood Moon Studio">
-<meta property="og:description" content="Independent game studio: By Eye, Forge Simulator and Game Theory Simulator: Mirror.">
-<meta property="og:image" content="https://yue-witness.github.io/assets/studio/logo-512.png">
-<meta property="og:url" content="https://yue-witness.github.io/en/">
-<link rel="stylesheet" href="../assets/site.css">
+<meta property="og:site_name" content="Blood Moon Studio">
+<meta property="og:title" content="Blood Moon Studio · Solo indie game studio">
+<meta property="og:description" content="Blood Moon Studio is a solo indie game studio making light casual games, simulator games and narrative indie games: By Eye, Forge Simulator, Winter Potato Peeling Simulator and Game Theory Simulator: Mirror.">
+<meta property="og:image" content="https://bloodmoonstudio.org/assets/studio/logo-512.png">
+<meta property="og:url" content="https://bloodmoonstudio.org/en/">
+<meta name="twitter:card" content="summary_large_image">
+
+<script>
+  // 旧版首页用 #by-eye / #forge / #mirror 标签页，现转到各游戏详情页。
+  (function () {
+    var id = location.hash.slice(1);
+    if (/^(by-eye|forge|potato|mirror)$/.test(id)) location.replace('/en/games/' + id + '/');
+  })();
+</script>
+<link rel="stylesheet" href="/assets/site.css?v=51d8d22085">
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 <header class="site-head">
   <div class="wrap">
-    <a class="brand" href="./">
-      <img src="../assets/studio/mark-64.png" alt="" width="36" height="36">
-      <span>Blood Moon Studio<small lang="zh-CN">血月的工作室</small></span>
+    <a class="brand" href="/en/">
+      <img src="/assets/studio/mark-64.png" alt="" width="36" height="36">
+      <span>Blood Moon Studio<small>血月的工作室</small></span>
     </a>
+    <nav class="main-nav" aria-label="Main"><a href="/en/#games">Games</a><a href="/en/#play">Play online</a><a href="/en/#about">About</a><a href="/en/#contact">Contact</a></nav>
     <nav class="lang" aria-label="Language / 语言">
-      <a href="../" lang="zh-CN" hreflang="zh-CN" data-lang="zh">中文</a>
       <span aria-current="true">EN</span>
+      <a href="/" lang="zh-CN" hreflang="zh-CN" data-lang="zh">中文</a>
     </nav>
   </div>
 </header>
-
-<main>
+<main id="main">
   <section class="hero">
     <div class="wrap">
-      <div>
-        <h1>Blood Moon <em>Studio</em></h1>
-        <p>An independent game studio. We make games you want to try at a glance and play again right after: from quick eye-test puzzles to strategy stories where you try to outwit an AI.</p>
-        <ul class="facts">
-          <li>3 games</li>
-          <li>Mobile · Mini games · PC</li>
-          <li>English / 中文</li>
-        </ul>
+      <div class="hero-copy">
+        <p class="eyebrow">Solo indie game studio</p>
+        <h1>Games that are <em>easy to pick up</em><br>and hard to put down</h1>
+        <p class="lead">Blood Moon Studio is a solo indie game studio. It makes three kinds of games: light casual games, simulator games and narrative indie games, released on phones, mini-game platforms, the web and PC.</p>
+        <ul class="hero-genres"><li>Light casual games</li><li>Simulator games</li><li>Narrative indie games</li></ul>
+        <div class="hero-actions">
+          <a class="btn primary play" href="/forge/play/"><svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16"><path d="M4 2.5v11l9-5.5z" fill="currentColor"/></svg>Play Forge Simulator in your browser</a>
+          <a class="btn on-dark" href="#games">See all games <span aria-hidden="true">↓</span></a>
+        </div>
       </div>
-      <div class="moon"><img src="../assets/studio/mark-256.png" alt="Blood Moon Studio mark: a blood-red crescent moon" width="150" height="150"></div>
+      <div class="shelf"><a class="shelf-item shelf-0" href="/en/games/by-eye/"><img src="/assets/by-eye/icon.png" alt="By Eye" width="120" height="120"></a><a class="shelf-item shelf-1" href="/en/games/forge/"><img src="/assets/forge/icon.png" alt="Forge Simulator" width="120" height="120"></a><a class="shelf-item shelf-2" href="/en/games/potato/"><img src="/assets/potato/icon.png" alt="Winter Potato Peeling Simulator" width="120" height="120"></a><a class="shelf-item shelf-3" href="/en/games/mirror/"><img src="/assets/mirror/icon.png" alt="Game Theory Simulator: Mirror" width="120" height="120"></a></div>
     </div>
   </section>
 
-  <section class="wrap games" aria-labelledby="games-title">
-    <h2 class="section-title" id="games-title">Games <span lang="zh-CN">作品</span></h2>
-
-    <div class="games-layout">
-    <aside class="sidebar">
-    <div class="sidebar-head"><b>All games</b><small>3</small></div>
-    <div class="tabs" role="tablist" aria-label="Games" aria-orientation="vertical">
-      <button class="tab" role="tab" id="tab-by-eye" data-game="by-eye" aria-controls="panel-by-eye" aria-selected="true">
-        <img src="../assets/by-eye/icon.png" alt="" width="48" height="48">
-        <span class="tab-text"><b>By Eye</b><small>Estimation puzzle · Out now</small></span>
-      </button>
-      <button class="tab" role="tab" id="tab-forge" data-game="forge" aria-controls="panel-forge" aria-selected="false" tabindex="-1">
-        <img src="../assets/forge/icon.png" alt="" width="48" height="48">
-        <span class="tab-text"><b>Forge Simulator</b><small>Casual strategy · Playable now</small></span>
-      </button>
-      <button class="tab" role="tab" id="tab-mirror" data-game="mirror" aria-controls="panel-mirror" aria-selected="false" tabindex="-1">
-        <img src="../assets/mirror/icon.png" alt="" width="48" height="48">
-        <span class="tab-text"><b>Mirror</b><small>Sci-fi strategy · In development</small></span>
-      </button>
+  <section class="wrap section" id="games" aria-labelledby="games-h">
+    <div class="section-head">
+      <h2 id="games-h">Our games</h2>
+      <p>Open any game to see its trailer, how it plays and where to get it.</p>
     </div>
-    </aside>
-
-    <div class="panels">
-    <!-- By Eye -->
-    <article class="panel" role="tabpanel" id="panel-by-eye" aria-labelledby="tab-by-eye">
-      <div class="game-head">
-        <img src="../assets/by-eye/icon.png" alt="By Eye app icon" width="104" height="104">
-        <div>
-          <h3>By Eye</h3>
-          <p class="alt" lang="zh-CN">目测</p>
-          <p class="pitch">My eyes are a ruler! One glance: how close can you guess?</p>
-        </div>
+    <div class="card-grid even">
+<article class="card">
+  <a class="card-cover" href="/en/games/by-eye/" tabindex="-1" aria-hidden="true">
+    <img src="/assets/by-eye/trailer-en.jpg" alt="" width="1280" height="720" loading="lazy">
+    <span class="badge badge-live">Out now</span>
+  </a>
+  <div class="card-body">
+    <div class="card-title">
+      <img src="/assets/by-eye/icon.png" alt="" width="56" height="56">
+      <div>
+        <h3><a href="/en/games/by-eye/">By Eye</a></h3>
+        <p>Casual puzzle</p>
       </div>
-      <ul class="chips">
-        <li class="status">Out now</li>
-        <li>Estimation puzzle</li>
-        <li>Android · Mini game</li>
-        <li>Multilingual</li>
-      </ul>
-      <div class="actions">
-        <a class="btn primary" href="https://play.google.com/store/apps/details?id=com.byeye.game">Get it on Google Play</a>
-        <a class="btn" href="https://www.taptap.cn/app/961202">TapTap (China)</a>
-      </div>
-      <figure class="promo">
-        <a href="../assets/by-eye/promo-en.jpg" data-zoom><img src="../assets/by-eye/promo-en.jpg" alt="By Eye feature graphic with two gameplay screens" width="1024" height="500" loading="lazy"></a>
-      </figure>
-      <div class="cols">
-        <div class="copy">
-          <p>"That steak looks like half a pound." "Those two lines are definitely the same length!" Everyone says "looks about right", but is it really?</p>
-          <p>By Eye is a visual intuition puzzle game. No formulas, no calculations: take a glance, dial in your estimate and watch the reveal. Will it be a pinpoint triumph or a hilarious reality check?</p>
-          <p>Numbers are regenerated on every retry, so there is nothing to memorize.</p>
-        </div>
-        <div class="side">
-          <h4>Highlights</h4>
-          <ul class="features">
-            <li><b>Six kinds of puzzles</b>: proportions, quantities, moving objects, hands-on tasks, optical illusions, physics and geometry.</li>
-            <li><b>Day vs. night</b>: take your time by day; at night the puzzle flashes once, then goes dark.</li>
-            <li><b>The reveal</b>: 0.2% off or 28% off, you see it instantly.</li>
-            <li><b>Endless mode</b>: unlocked after the day levels, with leaderboards.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="shots-head"><h4>Screenshots</h4><small>Tap to enlarge</small></div>
-      <div class="shots">
-        <a href="../assets/by-eye/shot-en-01.jpg" data-zoom><img src="../assets/by-eye/shot-en-01.jpg" alt="By Eye screenshot 1" width="540" height="960" loading="lazy"></a>
-        <a href="../assets/by-eye/shot-en-02.jpg" data-zoom><img src="../assets/by-eye/shot-en-02.jpg" alt="By Eye screenshot 2" width="540" height="960" loading="lazy"></a>
-        <a href="../assets/by-eye/shot-en-03.jpg" data-zoom><img src="../assets/by-eye/shot-en-03.jpg" alt="By Eye screenshot 3" width="540" height="960" loading="lazy"></a>
-        <a href="../assets/by-eye/shot-en-04.jpg" data-zoom><img src="../assets/by-eye/shot-en-04.jpg" alt="By Eye screenshot 4" width="540" height="960" loading="lazy"></a>
-        <a href="../assets/by-eye/shot-en-05.jpg" data-zoom><img src="../assets/by-eye/shot-en-05.jpg" alt="By Eye screenshot 5" width="540" height="960" loading="lazy"></a>
-        <a href="../assets/by-eye/shot-en-06.jpg" data-zoom><img src="../assets/by-eye/shot-en-06.jpg" alt="By Eye screenshot 6" width="540" height="960" loading="lazy"></a>
-        <a href="../assets/by-eye/shot-en-07.jpg" data-zoom><img src="../assets/by-eye/shot-en-07.jpg" alt="By Eye screenshot 7" width="540" height="960" loading="lazy"></a>
-        <a href="../assets/by-eye/shot-en-08.jpg" data-zoom><img src="../assets/by-eye/shot-en-08.jpg" alt="By Eye screenshot 8" width="540" height="960" loading="lazy"></a>
-        <a href="../assets/by-eye/shot-en-09.jpg" data-zoom><img src="../assets/by-eye/shot-en-09.jpg" alt="By Eye leaderboard screenshot" width="540" height="960" loading="lazy"></a>
-      </div>
-    </article>
-
-    <!-- Forge Simulator -->
-    <article class="panel" role="tabpanel" id="panel-forge" aria-labelledby="tab-forge" hidden>
-      <div class="game-head">
-        <img src="../assets/forge/icon.png" alt="Forge Simulator icon" width="104" height="104">
-        <div>
-          <h3>Forge Simulator</h3>
-          <p class="alt" lang="zh-CN">每日强化挑战</p>
-          <p class="pitch">Spend a fixed daily budget, weigh the risk, push your gear to +10.</p>
-        </div>
-      </div>
-      <ul class="chips">
-        <li class="status">Playable now</li>
-        <li>Casual strategy</li>
-        <li>Web · Android · WeChat · Douyin mini games · TapTap</li>
-        <li>No in-app purchases</li>
-      </ul>
-      <div class="actions">
-        <a class="btn primary" href="../forge/play/">Play in browser</a>
-        <a class="btn" href="https://yuewitness.itch.io/forge-simulator-epic-gear">itch.io</a>
-        <a class="btn" href="https://www.taptap.cn/app/994996">TapTap page (China)</a>
-      </div>
-      <figure class="promo">
-        <a href="../assets/forge/promo-en.jpg" data-zoom><img src="../assets/forge/promo-en.jpg" alt="Forge Simulator key art: a golden hammer strikes a sword on an anvil" width="1280" height="720" loading="lazy"></a>
-      </figure>
-      <div class="cols">
-        <div class="copy">
-          <p>Forge Simulator is a portrait-mode casual game. Each day you receive a limited stack of enhancement stones and split them across five slots (weapon, helm, armor, gloves and boots) to push each piece from +0 toward +10.</p>
-          <p>Every level's success rate, cost and score are shown up front. Low-level failures keep your level; high-level failures may knock it down. When to play safe and when to go all in is up to you.</p>
-          <p>No in-app purchases, and a session takes only a few minutes.</p>
-          <p>The browser version is playable now. The Android APK is on itch.io, Google Play is in closed testing, and the WeChat mini game and TapTap versions are coming soon.</p>
-        </div>
-        <div class="side">
-          <h4>Highlights</h4>
-          <ul class="features">
-            <li><b>Leaderboards</b>: your five pieces add up to one total score, ranked on daily, weekly and per-slot national boards.</li>
-            <li><b>Weekly seasons</b>: resources reset daily at 05:00; every Monday gear resets and the theme rotates between Xianxia, Western Knight, Western Mage and Wuxia sets.</li>
-            <li><b>Satisfying feedback</b>: a retro gilded interface with charge-up beams, success flashes and shattering failures.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="shots-head"><h4>Screenshots</h4><small>Chinese version · Tap to enlarge</small></div>
-      <div class="shots">
-        <a href="../assets/forge/shot-01.jpg" data-zoom><img src="../assets/forge/shot-01.jpg" alt="Main screen, Xianxia theme" width="540" height="960" loading="lazy"></a>
-        <a href="../assets/forge/shot-02.jpg" data-zoom><img src="../assets/forge/shot-02.jpg" alt="Successful enhancement" width="540" height="960" loading="lazy"></a>
-        <a href="../assets/forge/shot-03.jpg" data-zoom><img src="../assets/forge/shot-03.jpg" alt="Main screen, Western Mage theme" width="540" height="960" loading="lazy"></a>
-        <a href="../assets/forge/shot-04.jpg" data-zoom><img src="../assets/forge/shot-04.jpg" alt="Failed enhancement with demotion" width="540" height="960" loading="lazy"></a>
-        <a href="../assets/forge/shot-05.jpg" data-zoom><img src="../assets/forge/shot-05.jpg" alt="Main screen, Wuxia theme" width="540" height="960" loading="lazy"></a>
-        <a href="../assets/forge/shot-06.jpg" data-zoom><img src="../assets/forge/shot-06.jpg" alt="Rules and rate table" width="540" height="960" loading="lazy"></a>
-      </div>
-    </article>
-
-    <!-- Game Theory Simulator: Mirror -->
-    <article class="panel" role="tabpanel" id="panel-mirror" aria-labelledby="tab-mirror" hidden>
-      <div class="game-head">
-        <img src="../assets/mirror/icon.png" alt="Game Theory Simulator: Mirror icon" width="104" height="104">
-        <div>
-          <h3>Game Theory Simulator: Mirror</h3>
-          <p class="alt" lang="zh-CN">博弈模拟器：镜像</p>
-          <p class="pitch">Keep AI guessing.</p>
-        </div>
-      </div>
-      <ul class="chips">
-        <li class="status">In development</li>
-        <li>Sci-fi strategy &amp; narrative</li>
-        <li>PC · Steam first</li>
-      </ul>
-      <div class="actions">
-        <span class="btn static">Steam page coming soon</span>
-      </div>
-      <figure class="promo">
-        <a href="../assets/mirror/promo-en.jpg" data-zoom><img src="../assets/mirror/promo-en.jpg" alt="Game Theory Simulator: Mirror concept teaser key art" width="1280" height="720" loading="lazy"></a>
-      </figure>
-      <div class="cols">
-        <div class="copy">
-          <p>You think you are changing your habits. Your opponent may be waiting for that change.</p>
-          <p>Game Theory Simulator: Mirror is a sci-fi strategy and narrative game in development. Enter a series of strategic tests as S-17 and, guided by Tutor, start from the rules, then face shifting constraints, time pressure and the question of what others intend.</p>
-          <p>Stick with your strategy or try something new? The game pairs prediction and counter-prediction with a story that unfolds as you play.</p>
-        </div>
-        <div class="side">
-          <h4>Meet S-17</h4>
-          <div class="character">
-            <img src="../assets/mirror/s17.png" alt="S-17, a small yellow robot" width="480" height="477" loading="lazy">
-            <p>Dark-blue test chambers, glassy interfaces and dot-matrix text set the look. Follow along for development updates and demo news.</p>
-          </div>
-        </div>
-      </div>
-    </article>
     </div>
+    <p class="card-text">Glance at a shape, a crowd or a moving object, estimate by instinct, then see how far off you were.</p>
+    <ul class="chips"><li>Android · Mini game</li><li>Multilingual</li><li>Free</li></ul>
+    <div class="card-actions">
+      <a class="btn primary" href="https://play.google.com/store/apps/details?id=com.byeye.game" rel="noopener">Get it on Google Play</a>
+      <a class="btn ghost" href="/en/games/by-eye/">Game details <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <a class="card-cover" href="/en/games/forge/" tabindex="-1" aria-hidden="true">
+    <img src="/assets/forge/promo-en.jpg" alt="" width="1280" height="720" loading="lazy">
+    <span class="badge badge-web">Play online</span>
+  </a>
+  <div class="card-body">
+    <div class="card-title">
+      <img src="/assets/forge/icon.png" alt="" width="56" height="56">
+      <div>
+        <h3><a href="/en/games/forge/">Forge Simulator</a></h3>
+        <p>Gear-forging simulator</p>
+      </div>
+    </div>
+    <p class="card-text">Get a limited stack of enhancement stones each day and upgrade five pieces of gear. Every rate and penalty is shown up front; play it safe or take the risk.</p>
+    <ul class="chips"><li>Web · Android · Mini games</li><li>No in-app purchases</li><li>Daily leaderboards</li></ul>
+    <div class="card-actions">
+      <a class="btn primary play" href="/forge/play/"><svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16"><path d="M4 2.5v11l9-5.5z" fill="currentColor"/></svg>Play in browser</a>
+      <a class="btn ghost" href="/en/games/forge/">Game details <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <a class="card-cover" href="/en/games/potato/" tabindex="-1" aria-hidden="true">
+    <img src="/assets/potato/promo-en.jpg" alt="" width="1280" height="720" loading="lazy">
+    <span class="badge badge-web">Play online</span>
+  </a>
+  <div class="card-body">
+    <div class="card-title">
+      <img src="/assets/potato/icon.png" alt="" width="56" height="56">
+      <div>
+        <h3><a href="/en/games/potato/">Winter Potato Peeling Simulator</a></h3>
+        <p>Peeling sim · Incremental</p>
+      </div>
+    </div>
+    <p class="card-text">Take a job at a remote old potato plant and peel your way through 100,000 potatoes. Earn better knives, learn skills and add machines until one workbench becomes a whole factory.</p>
+    <ul class="chips"><li>Web · Android · Mini games</li><li>Single-player</li><li>Chinese only</li></ul>
+    <div class="card-actions">
+      <a class="btn primary play" href="/potato/play/"><svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16"><path d="M4 2.5v11l9-5.5z" fill="currentColor"/></svg>Play in browser</a>
+      <a class="btn ghost" href="/en/games/potato/">Game details <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <a class="card-cover" href="/en/games/mirror/" tabindex="-1" aria-hidden="true">
+    <img src="/assets/mirror/promo-en.jpg" alt="" width="1280" height="720" loading="lazy">
+    <span class="badge badge-dev">In development</span>
+  </a>
+  <div class="card-body">
+    <div class="card-title">
+      <img src="/assets/mirror/icon.png" alt="" width="56" height="56">
+      <div>
+        <h3><a href="/en/games/mirror/">Game Theory Simulator: Mirror</a></h3>
+        <p>Sci-fi narrative · Strategy</p>
+      </div>
+    </div>
+    <p class="card-text">Play as test subject S-17. Read your opponent, hide your intent and uncover the story behind the tests, one round at a time.</p>
+    <ul class="chips"><li>PC · Steam first</li><li>Single-player story</li></ul>
+    <div class="card-actions">
+      <span class="btn static">Steam page coming soon</span>
+      <a class="btn ghost" href="/en/games/mirror/">Game details <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+
+  <section class="wrap section" id="play" aria-labelledby="play-h">
+    <div class="web-box">
+      <div class="section-head">
+        <h2 id="play-h">Play in your browser</h2>
+        <p>Nothing to install: start right away on desktop or mobile. Browser versions of our future games will launch here too.</p>
+      </div>
+      <ul class="web-list"><li class="web-item">
+        <img src="/assets/forge/icon.png" alt="" width="64" height="64">
+        <div><b>Forge Simulator</b><small>No download needed, works on desktop and mobile browsers</small></div>
+        <a class="btn primary play" href="/forge/play/"><svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16"><path d="M4 2.5v11l9-5.5z" fill="currentColor"/></svg>Play now</a>
+      </li><li class="web-item">
+        <img src="/assets/potato/icon.png" alt="" width="64" height="64">
+        <div><b>Winter Potato Peeling Simulator</b><small>Chinese text only. No download needed; your save stays in this browser</small></div>
+        <a class="btn primary play" href="/potato/play/"><svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16"><path d="M4 2.5v11l9-5.5z" fill="currentColor"/></svg>Play now</a>
+      </li><li class="web-item soon">
+        <span class="soon-mark" aria-hidden="true">+</span>
+        <div><b>More browser games</b><small>New games will show up here as soon as their browser versions are ready.</small></div>
+      </li></ul>
+    </div>
+  </section>
+
+  <section class="wrap section about" id="about" aria-labelledby="about-h">
+    <div class="about-mark"><img src="/assets/studio/mark-256.png" alt="" width="160" height="160"></div>
+    <div>
+      <h2 id="about-h">About the studio</h2>
+      <p>Blood Moon Studio is a solo indie game studio. The aim is games with clear rules that are easy to start and still worth coming back to. The games so far fall into three groups:</p>
+      <ul class="genres"><li><b>Light casual games</b><span>Rules you understand at a glance and rounds that take a few minutes.</span>
+          <a href="/en/games/by-eye/">Example: By Eye <span aria-hidden="true">→</span></a></li><li><b>Simulator games</b><span>Built around one complete system, where you make trade-offs with limited resources.</span>
+          <a href="/en/games/forge/">Example: Forge Simulator <span aria-hidden="true">→</span></a></li><li><b>Narrative indie games</b><span>Strategy gameplay woven together with a story that unfolds as you play.</span>
+          <a href="/en/games/mirror/">Example: Game Theory Simulator: Mirror <span aria-hidden="true">→</span></a></li></ul>
+      <p>Every game supports English and Chinese and is out now or coming soon on Google Play, TapTap, itch.io, WeChat and Douyin mini games, Steam and the web.</p>
     </div>
   </section>
 </main>
-
-<footer class="site-foot">
+<footer class="site-foot" id="contact">
   <div class="wrap">
-    <div>
-      <h2>Contact</h2>
-      <ul>
-        <li><a href="mailto:yue.witness@gmail.com">yue.witness@gmail.com</a></li>
-        <li><a href="https://github.com/yue-witness">GitHub</a></li>
-      </ul>
+    <div class="foot-brand">
+      <img src="/assets/studio/mark-64.png" alt="" width="40" height="40">
+      <div>
+        <h2>Contact</h2>
+        <p>For business, publishing, press or feedback, send an email.</p>
+        <p><a class="mail" href="mailto:yue.witness@gmail.com">yue.witness@gmail.com</a></p>
+      </div>
     </div>
     <div>
       <h2>Policies</h2>
-      <ul>
-        <li><a href="../by-eye/privacy/">By Eye Privacy Policy (Google Play)</a></li>
-        <li><a href="../by-eye/privacy/tapplay/" lang="zh-CN">《目测》隐私政策（TapTap 版）</a></li>
-        <li><a href="../app-ads.txt">app-ads.txt</a></li>
-      </ul>
+      <ul><li><a href="/by-eye/privacy/">By Eye Privacy Policy (Google Play)</a></li><li><a href="/by-eye/privacy/tapplay/" lang="zh-CN">《目测》隐私政策（TapTap 版）</a></li><li><a href="/forge/privacy/">Forge Simulator Privacy Policy</a></li><li><a href="/potato/privacy/" lang="zh-CN">《冬日削土豆模拟器》隐私政策</a></li><li><a href="/app-ads.txt">app-ads.txt</a></li></ul>
     </div>
     <p class="copyright">© 2026 Blood Moon Studio · <span lang="zh-CN">血月的工作室</span></p>
   </div>
 </footer>
-
 <dialog class="lightbox" id="lightbox" aria-label="Image preview">
   <button type="button" aria-label="Close">×</button>
   <img alt="">
 </dialog>
-<script src="../assets/site.js"></script>
+<script src="/assets/site.js?v=3360b513a9"></script>
 </body>
 </html>

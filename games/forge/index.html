@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-adsense-account" content="ca-pub-6465473285974998">
+<title>每日强化挑战 · 血月的工作室</title>
+<meta name="description" content="每天限量强化石，自己决定怎么分配，冲击 +10。 每天领取限量强化石，分给五件装备逐级强化。成功率和降级规则全部公开，稳扎稳打还是冒险冲级，由你决定。">
+<link rel="canonical" href="https://bloodmoonstudio.org/games/forge/">
+<link rel="alternate" hreflang="zh-CN" href="https://bloodmoonstudio.org/games/forge/">
+<link rel="alternate" hreflang="en" href="https://bloodmoonstudio.org/en/games/forge/">
+<link rel="alternate" hreflang="x-default" href="https://bloodmoonstudio.org/games/forge/">
+<link rel="icon" href="/assets/studio/favicon-48.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/studio/apple-touch-icon.png">
+<meta name="theme-color" content="#B3122E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="血月的工作室">
+<meta property="og:title" content="每日强化挑战 · 血月的工作室">
+<meta property="og:description" content="每天限量强化石，自己决定怎么分配，冲击 +10。 每天领取限量强化石，分给五件装备逐级强化。成功率和降级规则全部公开，稳扎稳打还是冒险冲级，由你决定。">
+<meta property="og:image" content="https://bloodmoonstudio.org/assets/forge/promo-zh.jpg">
+<meta property="og:url" content="https://bloodmoonstudio.org/games/forge/">
+<meta name="twitter:card" content="summary_large_image">
+<script>
+  // 中文页：首次从非中文浏览器访问，或曾切换到英文，则跳到对应英文页；语言切换会被记住。
+  try {
+    var pref = localStorage.getItem('lang');
+    var langs = (navigator.languages || [navigator.language || '']).join(',').toLowerCase();
+    if (pref === 'en' || (!pref && langs && langs.indexOf('zh') < 0)) location.replace('/en' + location.pathname + location.hash);
+  } catch (e) {}
+</script>
+<link rel="stylesheet" href="/assets/site.css?v=51d8d22085">
+</head>
+<body class="game-forge">
+<a class="skip" href="#main">跳到正文</a>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="/">
+      <img src="/assets/studio/mark-64.png" alt="" width="36" height="36">
+      <span>血月的工作室<small>Blood Moon Studio</small></span>
+    </a>
+    <nav class="main-nav" aria-label="主导航"><a href="/#games" aria-current="page">游戏</a><a href="/#play">网页试玩</a><a href="/#about">关于</a><a href="/#contact">联系</a></nav>
+    <nav class="lang" aria-label="语言 / Language">
+      <span aria-current="true">中文</span>
+      <a href="/en/games/forge/" lang="en" hreflang="en" data-lang="en">EN</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <section class="game-hero">
+    <div class="wrap">
+      <a class="back" href="/#games"><span aria-hidden="true">←</span> 全部游戏</a>
+      <div class="game-top">
+        <div class="game-info">
+          <div class="game-title">
+            <img src="/assets/forge/icon.png" alt="" width="96" height="96">
+            <div>
+              <h1>每日强化挑战</h1>
+              <p class="alt" lang="en">Forge Simulator</p>
+            </div>
+          </div>
+          <p class="pitch">每天限量强化石，自己决定怎么分配，冲击 +10。</p>
+          <ul class="chips"><li class="badge badge-web">可在线游玩</li><li>装备强化模拟</li><li>网页 · 安卓 · 小游戏</li><li>无内购</li><li>每日排行榜</li></ul>
+          <div class="actions"><a class="btn primary play" href="/forge/play/"><svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16"><path d="M4 2.5v11l9-5.5z" fill="currentColor"/></svg>浏览器开始游戏</a><a class="btn" href="https://yuewitness.itch.io/forge-simulator-epic-gear" rel="noopener">itch.io（安卓 APK）</a><a class="btn" href="https://www.taptap.cn/app/994996" rel="noopener">TapTap 页面</a></div>
+          <p class="play-note">无需下载，电脑和手机浏览器都能玩</p>
+        </div>
+        <figure class="trailer">
+          <div class="video-frame">
+            <video controls preload="none" playsinline poster="/assets/forge/trailer-zh.jpg" aria-label="每日强化挑战 宣传片">
+              <source src="https://media.bloodmoonstudio.org/forge-zh.mp4" type="video/mp4">
+              <p>你的浏览器无法播放该视频，可以 <a href="https://media.bloodmoonstudio.org/forge-zh.mp4">直接打开视频文件</a>.</p>
+            </video>
+          </div>
+          <figcaption>宣传片 · 中文</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap section game-body">
+    <div class="copy">
+      <h2>游戏介绍</h2>
+      <p>《每日强化挑战》是一款以装备强化为核心的模拟器小游戏，竖屏操作，一局只需几分钟。</p><p>每天你会领到固定数量的强化石，用来强化武器、头盔、衣甲、护手和靴子五件装备，目标是把它们从 +0 一路强化到 +10。</p><p>每一级的成功率、消耗和得分都会提前标明。低等级强化失败不会掉级，高等级失败则可能降级。资源有限，每一次强化都是取舍：是集中资源把一件装备冲高，还是让五件装备平均成长？</p><p>游戏没有内购和充值，所有玩家每天拿到的资源相同，排名只取决于分配策略和运气。</p>
+      <h2>玩法亮点</h2>
+      <ul class="features"><li><b>每日排行榜</b>：五件装备的评分相加就是你的总分，可以在今日榜、本周榜和各部位分榜上与其他玩家比较。</li><li><b>每周换主题</b>：资源每天 05:00 重置；每周一装备清零，并在修仙、西幻骑士、西幻魔法师和武侠四套主题之间轮换。</li><li><b>强化反馈</b>：鎏金风格界面，配合蓄力光柱、成功光效和失败时的碎裂效果。</li></ul>
+      
+    </div>
+    <aside class="where" aria-labelledby="where-h">
+      <h2 id="where-h">在哪里玩</h2>
+      <ul><li><div><b>网页版</b><small>浏览器 · 现在就能玩</small></div><a class="btn small" href="/forge/play/">开始游戏</a></li><li><div><b>itch.io</b><small>安卓 APK · 可下载</small></div><a class="btn small" href="https://yuewitness.itch.io/forge-simulator-epic-gear" rel="noopener">前往</a></li><li><div><b>TapTap</b><small>安卓 · 即将推出</small></div><a class="btn small" href="https://www.taptap.cn/app/994996" rel="noopener">查看</a></li><li><div><b>Google Play</b><small>安卓 · 封闭测试中</small></div><span class="tag">敬请期待</span></li><li><div><b>微信小游戏</b><small>即将推出</small></div><span class="tag">敬请期待</span></li></ul>
+    </aside>
+  </section>
+
+  <section class="wrap section" aria-labelledby="shots-h">
+    <div class="section-head row"><h2 id="shots-h">游戏截图</h2><small>点击放大</small></div>
+    <div class="shots"><a href="/assets/forge/shot-01.jpg" data-zoom><img src="/assets/forge/shot-01.jpg" alt="修仙主题主界面" width="540" height="960" loading="lazy"></a><a href="/assets/forge/shot-02.jpg" data-zoom><img src="/assets/forge/shot-02.jpg" alt="强化成功" width="540" height="960" loading="lazy"></a><a href="/assets/forge/shot-03.jpg" data-zoom><img src="/assets/forge/shot-03.jpg" alt="西幻魔法师主题主界面" width="540" height="960" loading="lazy"></a><a href="/assets/forge/shot-04.jpg" data-zoom><img src="/assets/forge/shot-04.jpg" alt="强化失败降级" width="540" height="960" loading="lazy"></a><a href="/assets/forge/shot-05.jpg" data-zoom><img src="/assets/forge/shot-05.jpg" alt="武侠主题主界面" width="540" height="960" loading="lazy"></a><a href="/assets/forge/shot-06.jpg" data-zoom><img src="/assets/forge/shot-06.jpg" alt="规则与概率表" width="540" height="960" loading="lazy"></a></div>
+  </section>
+
+  <section class="wrap section" aria-labelledby="more-h">
+    <div class="section-head"><h2 id="more-h">其他游戏</h2></div>
+    <div class="more"><a class="mini" href="/games/by-eye/">
+        <img src="/assets/by-eye/icon.png" alt="" width="56" height="56">
+        <span><b>目测</b><small>休闲益智 · 已上线</small></span>
+        <span class="arrow" aria-hidden="true">→</span>
+      </a><a class="mini" href="/games/potato/">
+        <img src="/assets/potato/icon.png" alt="" width="56" height="56">
+        <span><b>冬日削土豆模拟器</b><small>削皮模拟 · 增量经营 · 可在线游玩</small></span>
+        <span class="arrow" aria-hidden="true">→</span>
+      </a><a class="mini" href="/games/mirror/">
+        <img src="/assets/mirror/icon.png" alt="" width="56" height="56">
+        <span><b>博弈模拟器：镜像</b><small>科幻叙事 · 策略博弈 · 开发中</small></span>
+        <span class="arrow" aria-hidden="true">→</span>
+      </a></div>
+  </section>
+</main>
+<footer class="site-foot" id="contact">
+  <div class="wrap">
+    <div class="foot-brand">
+      <img src="/assets/studio/mark-64.png" alt="" width="40" height="40">
+      <div>
+        <h2>联系方式</h2>
+        <p>商务合作、发行、媒体采访或问题反馈，欢迎发邮件联系。</p>
+        <p><a class="mail" href="mailto:yue.witness@gmail.com">yue.witness@gmail.com</a></p>
+      </div>
+    </div>
+    <div>
+      <h2>政策与信息</h2>
+      <ul><li><a href="/by-eye/privacy/tapplay/">《目测》隐私政策（TapTap 版）</a></li><li><a href="/by-eye/privacy/" lang="en">By Eye Privacy Policy (Google Play)</a></li><li><a href="/forge/privacy/">《每日强化挑战》隐私政策</a></li><li><a href="/potato/privacy/">《冬日削土豆模拟器》隐私政策</a></li><li><a href="/app-ads.txt">app-ads.txt</a></li></ul>
+    </div>
+    <p class="copyright">© 2026 血月的工作室 Blood Moon Studio</p>
+  </div>
+</footer>
+<dialog class="lightbox" id="lightbox" aria-label="图片预览">
+  <button type="button" aria-label="关闭">×</button>
+  <img alt="">
+</dialog>
+<script src="/assets/site.js?v=3360b513a9"></script>
+</body>
+</html>
