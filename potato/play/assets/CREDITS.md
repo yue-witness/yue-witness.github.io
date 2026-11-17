@@ -78,6 +78,7 @@ P5-B（资源管线与首包）又移除了没有代码引用的素材，原文�
 |---|---|
 | `story/letter_paper.webp`、`story/note_scrap_1.webp`、`story/note_scrap_2.webp`、`story/memo_official.webp`、`story/envelope.webp` | 本项目 `assets/source/ui_d/` 同名 PNG（按 `assets/source/ui_d/_brief.md` E 节用 codex image_gen 生成的原创素材），裁掉透明边后长边缩到 768、WebP q82 |
 | `story/ending_1.webp`（结局一：空荡的雪地与一张奖状）、`story/ending_2.webp`（结局二：雪地里一行朝北的脚印与一条麻袋布围巾） | 2026-11-10 用 codex CLI 0.163 内置 image_gen 生成（原图 1536×1024 PNG 在 `assets/source/story/`，提示词 `prompt_end1.txt` / `prompt_end2.txt`，日志 `codex_end*.log`），缩到 1024 宽、WebP q80。本项目原创生成物：铅笔淡彩旧纸风，无文字、无人物、无政治符号 |
+| `story/ending_home.webp`（归途：南方除夕夜雨，桌上扣着的粗瓷碗、门口红灯笼、门槛边一双新棉鞋）、`story/ending_drawer.webp`（抽屉：拉开的抽屉里一堆折起的空白纸条、麻绳扎的一叠、空铁盒、结霜的窗）、`story/ending_wait.webp`（往南：黄昏场院里拐向一侧的卡车车辙、矮栅栏外远处农场的几点暖光）、`story/ending_ledger.webp`（附件：桌上背面贴着粗纸的空白表单、浆糊碗和刷子、窗外雪中等着的煤车）、`story/ending_spring.webp`（开春：敞开的大门、化雪的泥地上朝两个方向的脚印、门柱边的红灯笼、门上的麻袋布围巾、新芽） | 2026-11-16 用 codex CLI 0.163 内置 image_gen 生成，以 `ending_1.png` / `ending_2.png` 作风格参考图（`--image`）（原图 1536×1024 PNG 在 `assets/source/story/`，提示词 `prompt_end_<id>.txt`），缩到 1024 宽、WebP q80。本项目原创生成物：铅笔淡彩旧纸风，无文字、无人物、无政治符号 |
 
 以下在运行时程序化绘制（无外部素材）：纸条铅笔字 / 家信墨水字 / 公函宋体排版、蜡烛、回信纸条按钮、黑底字卡（`client/src/game/story/`）；纸条折角、纸卷、捏纸的手套指尖（`client/src/carve/view/NoteFx.ts`）；四种蔬菜的皮 / 瓤 / 芯 / 籽着色（`client/src/carve/view/potatoMaterial.ts`）。剧情文本全部原创（`shared/config/story.json`）。
 
@@ -85,7 +86,7 @@ P5-B（资源管线与首包）又移除了没有代码引用的素材，原文�
 | 文件 | 来源 |
 |---|---|
 | `scenes/bg_store.jpg`（升级站库房远墙）、`scenes/bg_yard.jpg`（门外雪地院子）、`scenes/bg_flume.jpg`（交付口车间墙）、`scenes/bg_hall.jpg`（机械车间大厅）、`scenes/bg_stove.jpg`（炉边角落） | 2026-11-10 用 codex CLI 0.163 内置 image_gen 生成（原图 1536×1024 PNG 在 `assets/source/scenes_p4b/`，需求 `_brief.md`、提示词 `gen.sh`、日志 `codex_*.log`），`tools/asset-pipeline/scenes_bg.py` 缩到 768×512、轻微模糊、JPG q78（15～21KB/张）。本项目原创生成物：强烈景深虚化的写实远景，无文字、无人物、无俄文、无政治符号 |
-| `scenes/bg_yard_day.jpg`（仓库院子白天：起雾的云杉林 + 雪地，P4-G） | 2026-11-10 用 codex CLI 0.163 内置 image_gen 生成（原图 1536×1024 PNG 在 `assets/source/scenes_p4g/B/`，提示词 `gen.sh`、日志 `codex_bg_yard_day.log`），`tools/asset-pipeline/scenes_bg_p4g_b.py` 缩到 768×512、轻微模糊、JPG q78（17KB）。本项目原创生成物：强烈景深虚化的写实远景，无文字、无人物、无建筑、无俄文、无政治符号 |
+| `scenes/bg_yard_day.jpg`（仓库院子白天：起雾的云杉林 + 雪地，P4-G） | 2026-11-10 用 codex CLI 0.163 内置 image_gen 生成（原图 1536×1024 PNG 在 `assets/source/scenes_p4g/B/`，提示词 `gen.sh`、日志 `codex_bg_yard_day.log`（2026-11-14 已从仓库删除，见提交 9c925c7 之前的历史）），`tools/asset-pipeline/scenes_bg_p4g_b.py` 缩到 768×512、轻微模糊、JPG q78（17KB）。本项目原创生成物：强烈景深虚化的写实远景，无文字、无人物、无建筑、无俄文、无政治符号 |
 
 以下在运行时程序化生成（无外部素材）：柜台 / 货架 / 陈列品 / 台灯 / 信件格、土豆山（山体 + 土豆堆贴图 + 扫描土豆实例）、雪地与飘雪、铁桶 / 麻袋 / 独轮车 / 打包台 / 抓手 / 传送带、交付滑道 / 水池 / 水渠 / 计数牌 / 金币、手摇削皮机 / 自动削皮机 / 冒烟、炉子 / 猫窝 / 食盆 / 玩具、低模狸花猫（`client/src/game/scenes3d/`）；旧涂装钢、木板、雪地、麻袋布、砖墙、水泥、猫毛条纹、土豆堆、申领单纸面、流水、警示斜纹、滚筒等贴图（`client/src/game/scenes3d/kit/tex.ts`）。悬浮铭牌和箭头沿用切削区的 `carve/tray_tag.webp`、`carve/tray_arrow.webp`；手沿用切削区的手套模型；土豆沿用真实扫描（见上文）。
 
