@@ -3,220 +3,28 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="google-adsense-account" content="ca-pub-6465473285974998">
-<title>血月的工作室 · 专注模拟器游戏的独立工作室</title>
-<meta name="description" content="血月的工作室（Blood Moon Studio）是一家专注模拟器类游戏的个人独立游戏工作室，作品有《每日强化挑战》《冬日削土豆模拟器》《博弈模拟器：镜像》，以及休闲益智游戏《目测》。">
+<meta name="robots" content="noindex">
+<title>血月的工作室 Blood Moon Studio</title>
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
 <link rel="canonical" href="https://bloodmoonstudio.org/">
-<link rel="alternate" hreflang="zh-CN" href="https://bloodmoonstudio.org/">
-<link rel="alternate" hreflang="en" href="https://bloodmoonstudio.org/en/">
-<link rel="alternate" hreflang="x-default" href="https://bloodmoonstudio.org/">
-<link rel="icon" href="/assets/studio/favicon-48.png" type="image/png">
-<link rel="apple-touch-icon" href="/assets/studio/apple-touch-icon.png">
-<meta name="theme-color" content="#B3122E">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="血月的工作室">
-<meta property="og:title" content="血月的工作室 · 专注模拟器游戏的独立工作室">
-<meta property="og:description" content="血月的工作室（Blood Moon Studio）是一家专注模拟器类游戏的个人独立游戏工作室，作品有《每日强化挑战》《冬日削土豆模拟器》《博弈模拟器：镜像》，以及休闲益智游戏《目测》。">
-<meta property="og:image" content="https://bloodmoonstudio.org/assets/studio/logo-512.png">
-<meta property="og:url" content="https://bloodmoonstudio.org/">
-<meta name="twitter:card" content="summary_large_image">
-<script>
-  // 中文页：首次从非中文浏览器访问，或曾切换到英文，则跳到对应英文页；语言切换会被记住。
-  try {
-    var pref = localStorage.getItem('lang');
-    var langs = (navigator.languages || [navigator.language || '']).join(',').toLowerCase();
-    if (pref === 'en' || (!pref && langs && langs.indexOf('zh') < 0)) location.replace('/en' + location.pathname + location.hash);
-  } catch (e) {}
-</script>
-<script>
-  // 旧版首页用 #by-eye / #forge / #mirror 标签页，现转到各游戏详情页。
-  (function () {
-    var id = location.hash.slice(1);
-    if (/^(by-eye|forge|potato|mirror)$/.test(id)) location.replace('/games/' + id + '/');
-  })();
-</script>
-<link rel="stylesheet" href="/assets/site.css?v=0695f25315">
+<style>
+  body { margin: 0; padding: 48px 20px; font: 16px/1.7 system-ui, -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; color: #1F1A36; background: #FAF7F2; }
+  main { max-width: 640px; margin: 0 auto; }
+  h1 { font-size: 22px; margin: 0 0 8px; }
+  h2 { font-size: 17px; margin: 32px 0 8px; }
+  ul { padding-left: 20px; margin: 0; }
+  a { color: #B3122E; }
+  p { margin: 0 0 8px; }
+  @media (prefers-color-scheme: dark) { body { color: #ECE8F5; background: #15121F; } a { color: #FF8597; } }
+</style>
 </head>
 <body>
-<a class="skip" href="#main">跳到正文</a>
-<header class="site-head">
-  <div class="wrap">
-    <a class="brand" href="/">
-      <img src="/assets/studio/mark-64.png" alt="" width="36" height="36">
-      <span>血月的工作室<small>Blood Moon Studio</small></span>
-    </a>
-    <nav class="main-nav" aria-label="主导航"><a href="/#games">游戏</a><a href="/#play">网页试玩</a><a href="/#about">关于</a><a href="/#contact">联系</a></nav>
-    <nav class="lang" aria-label="语言 / Language">
-      <span aria-current="true">中文</span>
-      <a href="/en/" lang="en" hreflang="en" data-lang="en">EN</a>
-    </nav>
-  </div>
-</header>
-<main id="main">
-  <section class="hero">
-    <div class="wrap">
-      <div class="hero-copy">
-        <p class="eyebrow">模拟器游戏 · 个人独立工作室</p>
-        <h1>把一件小事，<br>做成<em>停不下来</em><span class="nw">的模拟器</span></h1>
-        <p class="lead">血月的工作室是一家个人独立游戏工作室，主攻模拟器类游戏。强化一件装备、削一个土豆、和 AI 博弈一轮，每款游戏都围绕一件具体的事，搭起一套规则清楚、经得起反复琢磨的系统。作品发布在手机、小游戏平台、网页和 PC 上。</p>
-        <ul class="hero-genres"><li>强化模拟</li><li>经营模拟</li><li>博弈模拟</li><li>休闲益智</li></ul>
-        <div class="hero-actions">
-          <a class="btn primary play" href="/forge/play/"><svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16"><path d="M4 2.5v11l9-5.5z" fill="currentColor"/></svg>在浏览器里玩《每日强化挑战》</a>
-          <a class="btn on-dark" href="#games">看全部游戏 <span aria-hidden="true">↓</span></a>
-        </div>
-      </div>
-      <div class="shelf"><a class="shelf-item shelf-0" href="/games/forge/"><img src="/assets/forge/icon.png" alt="每日强化挑战" width="120" height="120"></a><a class="shelf-item shelf-1" href="/games/potato/"><img src="/assets/potato/icon.png" alt="冬日削土豆模拟器" width="120" height="120"></a><a class="shelf-item shelf-2" href="/games/mirror/"><img src="/assets/mirror/icon.png" alt="博弈模拟器：镜像" width="120" height="120"></a><a class="shelf-item shelf-3" href="/games/by-eye/"><img src="/assets/by-eye/icon.png" alt="目测" width="120" height="120"></a></div>
-    </div>
-  </section>
-
-  <section class="wrap section" id="games" aria-labelledby="games-h">
-    <div class="section-head">
-      <h2 id="games-h">我们的游戏</h2>
-      <p>点开任意一款，可以看到宣传片、玩法介绍和下载或游玩入口。</p>
-    </div>
-    <div class="card-grid even">
-<article class="card">
-  <a class="card-cover" href="/games/forge/" tabindex="-1" aria-hidden="true">
-    <img src="/assets/forge/promo-zh.jpg" alt="" width="1280" height="720" loading="lazy">
-    <span class="badge badge-web">可在线游玩</span>
-  </a>
-  <div class="card-body">
-    <div class="card-title">
-      <img src="/assets/forge/icon.png" alt="" width="56" height="56">
-      <div>
-        <h3><a href="/games/forge/">每日强化挑战</a></h3>
-        <p>装备强化模拟</p>
-      </div>
-    </div>
-    <p class="card-text">每天领取限量强化石，分给五件装备逐级强化。成功率和降级规则全部公开，稳扎稳打还是冒险冲级，由你决定。</p>
-    <ul class="chips"><li>网页 · 安卓 · 小游戏</li><li>无内购</li><li>每日排行榜</li></ul>
-    <div class="card-actions">
-      <a class="btn primary play" href="/forge/play/"><svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16"><path d="M4 2.5v11l9-5.5z" fill="currentColor"/></svg>浏览器开始游戏</a>
-      <a class="btn ghost" href="/games/forge/">游戏详情 <span aria-hidden="true">→</span></a>
-    </div>
-  </div>
-</article>
-<article class="card">
-  <a class="card-cover" href="/games/potato/" tabindex="-1" aria-hidden="true">
-    <img src="/assets/potato/promo-zh.jpg" alt="" width="1280" height="720" loading="lazy">
-    <span class="badge badge-web">可在线游玩</span>
-  </a>
-  <div class="card-body">
-    <div class="card-title">
-      <img src="/assets/potato/icon.png" alt="" width="56" height="56">
-      <div>
-        <h3><a href="/games/potato/">冬日削土豆模拟器</a></h3>
-        <p>削皮模拟 · 增量经营</p>
-      </div>
-    </div>
-    <p class="card-text">在偏远的老加工站当削皮工，一刀一刀削完十万个土豆。攒钱换刀、学技能、添机器，一张工作台慢慢变成一座加工厂。</p>
-    <ul class="chips"><li>网页 · 安卓 · 小游戏</li><li>单机</li><li>无内购</li></ul>
-    <div class="card-actions">
-      <a class="btn primary play" href="/potato/play/"><svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16"><path d="M4 2.5v11l9-5.5z" fill="currentColor"/></svg>浏览器开始游戏</a>
-      <a class="btn ghost" href="/games/potato/">游戏详情 <span aria-hidden="true">→</span></a>
-    </div>
-  </div>
-</article>
-<article class="card">
-  <a class="card-cover" href="/games/mirror/" tabindex="-1" aria-hidden="true">
-    <img src="/assets/mirror/promo-zh.jpg" alt="" width="1280" height="720" loading="lazy">
-    <span class="badge badge-dev">开发中</span>
-  </a>
-  <div class="card-body">
-    <div class="card-title">
-      <img src="/assets/mirror/icon.png" alt="" width="56" height="56">
-      <div>
-        <h3><a href="/games/mirror/">博弈模拟器：镜像</a></h3>
-        <p>博弈模拟 · 科幻叙事</p>
-      </div>
-    </div>
-    <p class="card-text">扮演测试体 S-17，在一轮轮博弈测试中猜测对手、隐藏意图，并逐步揭开测试背后的故事。</p>
-    <ul class="chips"><li>PC · Steam 首发</li><li>单人剧情</li></ul>
-    <div class="card-actions">
-      <span class="btn static">Steam 页面即将公开</span>
-      <a class="btn ghost" href="/games/mirror/">游戏详情 <span aria-hidden="true">→</span></a>
-    </div>
-  </div>
-</article>
-<article class="card">
-  <a class="card-cover" href="/games/by-eye/" tabindex="-1" aria-hidden="true">
-    <img src="/assets/by-eye/promo-zh.jpg" alt="" width="1280" height="720" loading="lazy">
-    <span class="badge badge-live">已上线</span>
-  </a>
-  <div class="card-body">
-    <div class="card-title">
-      <img src="/assets/by-eye/icon.png" alt="" width="56" height="56">
-      <div>
-        <h3><a href="/games/by-eye/">目测</a></h3>
-        <p>休闲益智</p>
-      </div>
-    </div>
-    <p class="card-text">看一眼图形、数量或物体的运动，凭直觉估出答案，再看看和真实数值差了多少。</p>
-    <ul class="chips"><li>安卓 · 小游戏</li><li>多语言</li><li>免费</li></ul>
-    <div class="card-actions">
-      <a class="btn primary" href="https://www.taptap.cn/app/961202" rel="noopener">在 TapTap 下载</a>
-      <a class="btn ghost" href="/games/by-eye/">游戏详情 <span aria-hidden="true">→</span></a>
-    </div>
-  </div>
-</article>
-    </div>
-  </section>
-
-  <section class="wrap section" id="play" aria-labelledby="play-h">
-    <div class="web-box">
-      <div class="section-head">
-        <h2 id="play-h">网页游戏 · 打开就玩</h2>
-        <p>无需下载安装，在电脑或手机浏览器里直接开始。后续作品的网页版也会在这里上线。</p>
-      </div>
-      <ul class="web-list"><li class="web-item">
-        <img src="/assets/forge/icon.png" alt="" width="64" height="64">
-        <div><b>每日强化挑战</b><small>无需下载，电脑和手机浏览器都能玩</small></div>
-        <a class="btn primary play" href="/forge/play/"><svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16"><path d="M4 2.5v11l9-5.5z" fill="currentColor"/></svg>开始游戏</a>
-      </li><li class="web-item">
-        <img src="/assets/potato/icon.png" alt="" width="64" height="64">
-        <div><b>冬日削土豆模拟器</b><small>无需下载，电脑和手机浏览器都能玩；存档保存在本浏览器</small></div>
-        <a class="btn primary play" href="/potato/play/"><svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16"><path d="M4 2.5v11l9-5.5z" fill="currentColor"/></svg>开始游戏</a>
-      </li><li class="web-item soon">
-        <span class="soon-mark" aria-hidden="true">+</span>
-        <div><b>更多网页游戏</b><small>新作的网页版上线后会第一时间出现在这里。</small></div>
-      </li></ul>
-    </div>
-  </section>
-
-  <section class="wrap section about" id="about" aria-labelledby="about-h">
-    <div class="about-mark"><img src="/assets/studio/mark-256.png" alt="" width="160" height="160"></div>
-    <div>
-      <h2 id="about-h">关于工作室</h2>
-      <p>血月的工作室（Blood Moon Studio）是一家个人独立游戏工作室，主要制作模拟器类游戏：挑一件具体的事，把它做成一套完整、公开透明的系统，让每一次操作和取舍都有分量。上手简单，规则一看就懂，却值得一玩再玩。</p><p>目前的作品：</p>
-      <ul class="genres"><li><b>模拟器游戏 · 主攻</b><span>围绕一套完整的系统展开，在规则和有限资源之间做取舍：把装备强化到 +10，或在寒冬里削完十万个土豆。</span>
-          <div class="genre-links"><a href="/games/forge/">《每日强化挑战》 <span aria-hidden="true">→</span></a><a href="/games/potato/">《冬日削土豆模拟器》 <span aria-hidden="true">→</span></a></div></li><li><b>博弈模拟 · 剧情</b><span>把预测与反预测的博弈玩法和科幻故事结合在一起，边玩边揭开剧情。</span>
-          <div class="genre-links"><a href="/games/mirror/">《博弈模拟器：镜像》 <span aria-hidden="true">→</span></a></div></li><li><b>轻量休闲小游戏</b><span>规则一看就懂，几分钟玩一局，随时打开就能玩。</span>
-          <div class="genre-links"><a href="/games/by-eye/">《目测》 <span aria-hidden="true">→</span></a></div></li></ul>
-      <p>作品已上线或即将登陆 TapTap、Google Play、微信小游戏、哔哩哔哩、itch.io、Steam 和网页等平台，多数支持中文和英文。</p>
-    </div>
-  </section>
+<main>
+  <h1>血月的工作室 · Blood Moon Studio</h1>
+  <p>官网已迁到 <a href="https://bloodmoonstudio.org/">bloodmoonstudio.org</a>。本地址只保留各应用商店引用的隐私政策与协议页面。</p>
+  <p lang="en">Our website has moved to <a href="https://bloodmoonstudio.org/en/">bloodmoonstudio.org</a>. This address only keeps the policy pages that app stores link to.</p>
+  <h2>政策 · Policies</h2>
+  <ul><li><a href="/by-eye/privacy/">By Eye Privacy Policy (Google Play)</a></li><li><a href="/by-eye/privacy/tapplay/">《目测》隐私政策（TapTap 版）</a></li><li><a href="/forge/privacy/">《每日强化挑战》隐私政策 · Forge Simulator Privacy Policy</a></li><li><a href="/potato/privacy/">《冬日削土豆模拟器》隐私政策</a></li><li><a href="/potato/googleplay/privacy/">Winter Potato Peeler Simulator Privacy Policy (Google Play)</a></li><li><a href="/potato/googleplay/privacy/zh/">《冬日削土豆模拟器》隐私政策（Google Play 版）</a></li><li><a href="/ai-tycoon/privacy/">《从炒币破产到成为AI首富》隐私政策</a></li><li><a href="/ai-tycoon/terms/">《从炒币破产到成为AI首富》用户协议</a></li><li><a href="/app-ads.txt">app-ads.txt</a></li></ul>
 </main>
-<footer class="site-foot" id="contact">
-  <div class="wrap">
-    <div class="foot-brand">
-      <img src="/assets/studio/mark-64.png" alt="" width="40" height="40">
-      <div>
-        <h2>联系方式</h2>
-        <p>商务合作、发行、媒体采访或问题反馈，欢迎发邮件联系。</p>
-        <p><a class="mail" href="mailto:yue.witness@gmail.com">yue.witness@gmail.com</a></p>
-      </div>
-    </div>
-    <div>
-      <h2>政策与信息</h2>
-      <ul><li><a href="/by-eye/privacy/tapplay/">《目测》隐私政策（TapTap 版）</a></li><li><a href="/by-eye/privacy/" lang="en">By Eye Privacy Policy (Google Play)</a></li><li><a href="/forge/privacy/">《每日强化挑战》隐私政策</a></li><li><a href="/potato/privacy/">《冬日削土豆模拟器》隐私政策</a></li><li><a href="/potato/googleplay/privacy/zh/">《冬日削土豆模拟器》隐私政策（Google Play 版）</a></li><li><a href="/app-ads.txt">app-ads.txt</a></li></ul>
-    </div>
-    <p class="copyright">© 2026 血月的工作室 Blood Moon Studio</p>
-  </div>
-</footer>
-<dialog class="lightbox" id="lightbox" aria-label="图片预览">
-  <button type="button" aria-label="关闭">×</button>
-  <img alt="">
-</dialog>
-<script src="/assets/site.js?v=3360b513a9"></script>
 </body>
 </html>
